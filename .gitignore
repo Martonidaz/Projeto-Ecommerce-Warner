@@ -1,3 +1,42 @@
-SitePlayOn/.vs/SitePlayOn/config/applicationhost.config
-SitePlayOn/.vs/SitePlayOn/config/applicationhost.config
-SitePlayOn/.vs/SitePlayOn/config/applicationhost.config
+# Arquivos do Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.filters
+*.vcxproj.user
+
+# Arquivos de compilação
+bin/
+obj/
+*.cache
+*.log
+*.dll
+*.pdb
+
+# Arquivos de banco de dados
+*.mdf
+*.ldf
+App_Data/
+
+# Arquivos de configuração local
+*.config
+!web.config
+!app.config
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos do IIS
+*.iislog
+
+# Arquivos do NuGet
+packages/
+*.nupkg
+.nuget/
+
+# Arquivos do Azure
+*.azurepubxml
+*.pubxml
