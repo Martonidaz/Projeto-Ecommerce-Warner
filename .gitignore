@@ -4,8 +4,6 @@
 *.user
 *.userosscache
 *.sln.docstates
-*.vcxproj.filters
-*.vcxproj.user
 
 # Arquivos de compilação
 bin/
@@ -20,14 +18,10 @@ obj/
 *.ldf
 App_Data/
 
-# Arquivos de configuração local
-*.config
-!web.config
-!app.config
-
 # Arquivos temporários
 *.tmp
 *.temp
+*.vsidx
 
 # Arquivos do IIS
 *.iislog
@@ -36,7 +30,3 @@ App_Data/
 packages/
 *.nupkg
 .nuget/
-
-# Arquivos do Azure
-*.azurepubxml
-*.pubxml
