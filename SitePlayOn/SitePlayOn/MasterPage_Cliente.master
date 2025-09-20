@@ -13,6 +13,23 @@
     <form id="form1" runat="server">
     <div>
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            <header>
+    <div class="container header-content">
+        <div class="logo">
+            <img src="src/assets/playonlogo.png" class="logo-img">
+            <h1>Play On</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Inicio.aspx">Início</a></li>
+                <li><a href="Produtos.aspx">Produtos</a></li>
+                <li><a href="Categoria.aspx">Categorias</a></li>
+                <li><a href="Oferras.aspx">Ofertas</a></li>
+                <li><a href="Contato.aspx">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
         
         </asp:ContentPlaceHolder>
     </div>
