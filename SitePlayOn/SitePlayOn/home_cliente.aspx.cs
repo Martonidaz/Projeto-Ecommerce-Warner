@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -14,7 +16,7 @@ public partial class Inicio : System.Web.UI.Page
 
     protected void btnHome_click(object sender, EventArgs e)
     {
-        Response.Redirect("~/Home.aspx");
+        Response.Redirect("~/Home_cliente.aspx");
     }
 
     protected void btnProdutos_click(object sender, EventArgs e)
@@ -37,8 +39,9 @@ public partial class Inicio : System.Web.UI.Page
         Response.Redirect("~/Contato.aspx");
     }
 
-    protected void btnLogin_click(object sender, EventArgs e)
+    protected void btnLogout_click(object sender, EventArgs e)
     {
-        Response.Redirect("~/Login.aspx");
+        Session.Abandon();
+        Response.Redirect("~/TelaInicio.aspx");
     }
 }

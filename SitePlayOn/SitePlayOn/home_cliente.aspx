@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Inicio" Language="C#" MasterPageFile="~/MasterPage_Cliente.master" AutoEventWireup="true" CodeFile="Home.aspx.cs" Inherits="Inicio" %>
+﻿<%@ Page Title="Inicio" Language="C#" MasterPageFile="~/MasterPage_Cliente.master" AutoEventWireup="true" CodeFile="Home_cliente.aspx.cs" Inherits="Inicio" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
@@ -11,12 +11,15 @@
             </div>
             <nav>
                 <ul>
-                    <asp:Button ID="btnHome" OnClick="btnHome_click" runat="server" Text="Início" />
+                    <asp:Button ID="btnHome" OnClick="btnHome_click" runat="server" Text="Início" style="height: 26px" />
                     <asp:Button ID="btnProdutos" OnClick="btnProdutos_click" runat="server" Text="Jogos" />  
                     <asp:Button ID="btnCategoria" OnClick="btnCategoria_click" runat="server" Text="Categorias" />    
                     <asp:Button ID="btnOfertas" OnClick="btnOfertas_click" runat="server" Text="Ofertas" /> 
-                    <asp:Button ID="btnContato" OnClick="btnContato_click" runat="server" Text="Contato" />
-                    <asp:Button ID="btnLogin" OnClick="btnLogin_click" runat="server" Text="Login" /> 
+                    <asp:Button ID="btnContato" OnClick="btnContato_click" runat="server" Text="Contato" />                   
+                    <asp:Button ID="btnLogout" OnClick="btnLogout_click" runat="server" Text="Sair" />
+                    <li>
+                    <asp:Label ID="lblWelcome" runat="server" Text="Bem vindo"></asp:Label>
+                    </li>
                 </ul>
             </nav>
         </div>
