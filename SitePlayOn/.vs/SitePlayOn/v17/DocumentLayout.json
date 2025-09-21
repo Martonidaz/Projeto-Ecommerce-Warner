@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\",
+  "WorkspaceRootPath": "C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|c:\\users\\zakin\\documents\\github\\projeto-ecommerce-warner\\siteplayon\\siteplayon\\scr\\site\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|solutionrelative:siteplayon\\scr\\site\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|c:\\users\\breno\\onedrive\\documentos\\estudo\\projeto-ecommerce-warner\\siteplayon\\siteplayon\\masterpage_cliente.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|solutionrelative:siteplayon\\masterpage_cliente.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|c:\\users\\zakin\\documents\\github\\projeto-ecommerce-warner\\siteplayon\\siteplayon\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|solutionrelative:siteplayon\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+      "AbsoluteMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|c:\\users\\breno\\onedrive\\documentos\\estudo\\projeto-ecommerce-warner\\siteplayon\\siteplayon\\home_cliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|solutionrelative:siteplayon\\home_cliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|c:\\users\\breno\\onedrive\\documentos\\estudo\\projeto-ecommerce-warner\\siteplayon\\siteplayon\\home_admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|solutionrelative:siteplayon\\home_admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|c:\\users\\breno\\onedrive\\documentos\\estudo\\projeto-ecommerce-warner\\siteplayon\\siteplayon\\masterpage_admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|solutionrelative:siteplayon\\masterpage_admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\siteplayon\\scr\\site\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|solutionrelative:siteplayon\\scr\\site\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +30,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "home_admin.aspx",
+              "DocumentMoniker": "C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\home_admin.aspx",
+              "RelativeDocumentMoniker": "SitePlayOn\\home_admin.aspx",
+              "ToolTip": "C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\home_admin.aspx",
+              "RelativeToolTip": "SitePlayOn\\home_admin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-21T00:48:41.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "home_cliente.aspx",
+              "DocumentMoniker": "C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\home_cliente.aspx",
+              "RelativeDocumentMoniker": "SitePlayOn\\home_cliente.aspx",
+              "ToolTip": "C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\home_cliente.aspx",
+              "RelativeToolTip": "SitePlayOn\\home_cliente.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-21T00:46:46.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MasterPage_Cliente.master",
+              "DocumentMoniker": "C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\MasterPage_Cliente.master",
+              "RelativeDocumentMoniker": "SitePlayOn\\MasterPage_Cliente.master",
+              "ToolTip": "C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\MasterPage_Cliente.master",
+              "RelativeToolTip": "SitePlayOn\\MasterPage_Cliente.master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-21T00:46:24.199Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -33,29 +84,29 @@
               "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MasterPage.master",
-              "DocumentMoniker": "C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\MasterPage.master",
-              "RelativeDocumentMoniker": "SitePlayOn\\MasterPage.master",
-              "ToolTip": "C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\MasterPage.master",
-              "RelativeToolTip": "SitePlayOn\\MasterPage.master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-18T15:44:58.126Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "MasterPage_admin.master",
+              "DocumentMoniker": "C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\MasterPage_admin.master",
+              "RelativeDocumentMoniker": "SitePlayOn\\MasterPage_admin.master",
+              "ToolTip": "C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\MasterPage_admin.master",
+              "RelativeToolTip": "SitePlayOn\\MasterPage_admin.master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-20T22:40:20.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\scr\\site\\index.html",
+              "DocumentMoniker": "C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\scr\\site\\index.html",
               "RelativeDocumentMoniker": "SitePlayOn\\scr\\site\\index.html",
-              "ToolTip": "C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\scr\\site\\index.html",
+              "ToolTip": "C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\scr\\site\\index.html",
               "RelativeToolTip": "SitePlayOn\\scr\\site\\index.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
