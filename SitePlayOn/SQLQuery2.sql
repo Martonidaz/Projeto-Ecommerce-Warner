@@ -1,0 +1,1 @@
+﻿insert into Usuario (username, senha, tipousuario) Values ('Breno', '123', 'Usuario')

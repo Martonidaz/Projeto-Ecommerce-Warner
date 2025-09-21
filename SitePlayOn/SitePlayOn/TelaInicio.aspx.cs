@@ -11,20 +11,4 @@ public partial class TelaInicio : System.Web.UI.Page
     {
 
     }
-
-    protected void btnLogin_click(object sender, EventArgs e)
-    {
-        if (!IsPostBack)
-        {
-            if (Session["tipousuario"] == null || Session["tipousuario"].ToString() != "Usuario")
-            {
-                Response.Redirect("~/Login.aspx");
-            }
-            else if (Session["tipousuario"] == null || Session["tipousuario"].ToString() != "Admin")
-            {
-                Response.Redirect("~/Login.aspx");
-            }
-
-        }
-    }
 }
