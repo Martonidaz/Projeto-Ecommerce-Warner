@@ -54,7 +54,9 @@ public partial class Login : System.Web.UI.Page
                 Session["tipousuario"] = tipousuario.ToString();
                 Session["username"] = username;
 
-                if (tipousuario.ToString() == "Admin")
+                //if(tipousuario.ToString() == "admin")
+                //Alteração para ignorar espaços em branco
+                if (tipousuario.ToString().Trim().Equals("admin", StringComparison.OrdinalIgnoreCase))
                 {
                     Response.Redirect("Home_admin.aspx");
                     
