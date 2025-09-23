@@ -9,11 +9,19 @@ public partial class Home_admin : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        if (Session["tipousuario"] == null || Session["tipousuario"].ToString() == "cliente")
+        {
+            Response.Redirect("Login.aspx");
+        }
     }
 
     protected void btnCadastroUsuario_Click(object sender, EventArgs e)
     {
 
+    }
+
+    protected void btnVisualizarUsuarios_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("visualizar_usuario.aspx");
     }
 }

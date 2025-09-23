@@ -71,4 +71,9 @@ public partial class Login : System.Web.UI.Page
             }
         }
     }
+
+    protected void btnCadastro_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("Cadastro_cliente.aspx");
+    }
 }

@@ -11,7 +11,11 @@ public partial class Inicio : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        if (Session["tipousuario"] == null)
+        {
+            Response.Redirect("TelaInicio.aspx");
+        }
+        lblWelcome.Text = "Bem Vindo " + Session["username"].ToString();
     }
 
     protected void btnHome_click(object sender, EventArgs e)

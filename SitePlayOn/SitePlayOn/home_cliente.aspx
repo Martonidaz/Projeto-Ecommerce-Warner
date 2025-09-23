@@ -18,7 +18,7 @@
                     <asp:Button ID="btnContato" OnClick="btnContato_click" runat="server" Text="Contato" />                   
                     <asp:Button ID="btnLogout" OnClick="btnLogout_click" runat="server" Text="Sair" />
                     <li>
-                    <asp:Label ID="lblWelcome" runat="server" Text="Bem vindo"></asp:Label>
+                    <asp:Label ID="lblWelcome" runat="server" Text=""></asp:Label>
                     </li>
                 </ul>
             </nav>

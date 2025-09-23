@@ -14,6 +14,7 @@
             <asp:TextBox ID="txtSenha" runat="server" TextMode="Password" Placeholder="Insira sua senha" ></asp:TextBox>
             <asp:Label ID="lblValida" runat="server" Text=""></asp:Label>
             <asp:Button ID="btnEntrar" runat="server" Text="Entrar" OnClick="btnEntrar_Click"  />
+            <asp:Button ID="btnCadastro" runat="server" Text="Cadastrar" OnClick="btnCadastro_Click"/>
         </div>
     </form>
 </body>

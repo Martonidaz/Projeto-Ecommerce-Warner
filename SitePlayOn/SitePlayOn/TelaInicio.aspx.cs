@@ -9,6 +9,9 @@ public partial class TelaInicio : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        if (Session["tipousuario"] == null)
+        {
 
+        }
     }
 }

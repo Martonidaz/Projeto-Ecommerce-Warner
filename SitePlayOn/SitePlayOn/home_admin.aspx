@@ -7,7 +7,7 @@
     <asp:Button ID="btnCadastrarJogo" runat="server" Text="Cadastrar Jogo" />
     <asp:Button ID="btnCadastrarPlataformas" runat="server" Text="Cadastrar Plataformas" />
 
-    <asp:Button ID="btnVisualizarUsuarios" runat="server" Text="Visualizar Usuários" />
+    <asp:Button ID="btnVisualizarUsuarios" runat="server" Text="Visualizar Usuários" OnClick="btnVisualizarUsuarios_Click" />
     <asp:Button ID="btnVisualizarJogos" runat="server" Text="Visualizar Jogos Cadastrados" />
     <asp:Button ID="btnVisualizarPlataformas" runat="server" Text="Visualizar Palataformas cadastradas" />
 </asp:Content>
