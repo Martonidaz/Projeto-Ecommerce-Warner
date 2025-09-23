@@ -20,12 +20,12 @@ public partial class visualizar_usuario : System.Web.UI.Page
 
         using (SqlConnection con = new SqlConnection(conexao))
         {
-            string sql = @"SELECT u.id_usuario, u.username, c.nome, c.cpf, c.sexo, c.email, c.telefone, c.data_nascimento, c.data_cadastro, u.tipousuario FROM Usuario u INNER JOIN cliente c on u.id_cliente = c.id_cliente";
+            string sqlVerifica = @"SELECT id_cliente, nome, cpf, sexo, data_nascimento, telefone, email, data_cadastro FROM Cliente";
             
-            SqlCommand cmd = new SqlCommand(sql, con);
+            SqlCommand cmdVerifica = new SqlCommand(sqlVerifica, con);
             con.Open();
 
-            SqlDataReader dr = cmd.ExecuteReader();
+            SqlDataReader dr = cmdVerifica.ExecuteReader();
             gridUsuarios.DataSource = dr;
             gridUsuarios.DataBind();
         }
