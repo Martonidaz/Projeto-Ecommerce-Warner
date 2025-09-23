@@ -17,32 +17,6 @@ public partial class Inicio : System.Web.UI.Page
         }
         lblWelcome.Text = "Bem Vindo " + Session["username"].ToString();
     }
-
-    protected void btnHome_click(object sender, EventArgs e)
-    {
-        Response.Redirect("~/Home_cliente.aspx");
-    }
-
-    protected void btnProdutos_click(object sender, EventArgs e)
-    {
-        Response.Redirect("~/Produtos.aspx");
-    }
-
-    protected void btnCategoria_click(object sender, EventArgs e)
-    {
-        Response.Redirect("~/Categoria.aspx");
-    }
-
-    protected void btnOfertas_click(object sender, EventArgs e)
-    {
-        Response.Redirect("~/Ofertas.aspx");
-    }
-
-    protected void btnContato_click(object sender, EventArgs e)
-    {
-        Response.Redirect("~/Contato.aspx");
-    }
-
     protected void btnLogout_click(object sender, EventArgs e)
     {
         Session.Abandon();

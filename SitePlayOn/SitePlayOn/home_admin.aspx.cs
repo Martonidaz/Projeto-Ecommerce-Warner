@@ -24,4 +24,10 @@ public partial class Home_admin : System.Web.UI.Page
     {
         Response.Redirect("visualizar_usuario.aspx");
     }
+
+    protected void btnSairAdmin_Click(object sender, EventArgs e)
+    {
+        Session.Abandon();
+        Response.Redirect("~/TelaInicio.aspx");
+    }
 }

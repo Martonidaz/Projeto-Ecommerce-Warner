@@ -15,7 +15,7 @@
             <asp:TextBox ID="txtNome" runat="server" Placeholder="Seu Nome"></asp:TextBox>
             <asp:TextBox ID="txtCPF" runat="server" Placeholder="CPF"></asp:TextBox>          
             <asp:DropDownList ID="listgen" runat="server" Placeholder="Genero">
-                <asp:ListItem Text="Mascuino" Value="M" />
+                <asp:ListItem Text="Masculino" Value="M" />
                 <asp:ListItem Text="Feminino" Value="F" />
             </asp:DropDownList>
             <asp:TextBox ID="txtData" runat="server" TextMode="Date" Placeholder="Data de Nascimento"></asp:TextBox>

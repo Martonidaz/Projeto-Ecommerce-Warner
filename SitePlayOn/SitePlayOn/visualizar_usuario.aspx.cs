@@ -11,7 +11,11 @@ public partial class visualizar_usuario : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        visualizarUsuarios();
+        if (Session["tipousuario"] != null || Session["tipousuario"].ToString() == "admin")
+        {
+            visualizarUsuarios();
+        }
+        
     }
 
     private void visualizarUsuarios()
