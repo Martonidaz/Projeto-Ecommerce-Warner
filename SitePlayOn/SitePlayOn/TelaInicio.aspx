@@ -33,7 +33,7 @@
     <section class="hero-banner">
         <div class="container hero-content">
             <h2>Tecnologia de Ponta a Preços Acessíveis</h2>
-            <p>Encontre os melhores produtos de informática com garantia e entrega rápida</p>
+            <p>Encontre os melhores jogos com garantia e entrega rápida</p>
             <a href="#" class="btn">Ver Ofertas</a>
         </div>
     </section>
@@ -44,31 +44,31 @@
             <h2 class="section-title">Categoria de Jogos</h2>
             <div class="category-grid">
                 <div class="category-card">
-                    <div class="category-icon">💻</div>
+                    <div class="category-icon">🧟</div>
                     <div class="category-info">
-                        <h3>Notebooks</h3>
-                        <p>Desempenho e mobilidade</p>
+                        <h3>Terror</h3>
+                        <p>Terror, Sobrevivência, Suspense, Medo, Horror, Assustador, Sobrenatural, Tensão, Zumbi</p>
                     </div>
                 </div>
                 <div class="category-card">
-                    <div class="category-icon">🖥️</div>
+                    <div class="category-icon">🔫</div>
                     <div class="category-info">
-                        <h3>Computadores</h3>
-                        <p>Potência para trabalho e jogos</p>
+                        <h3>Tiro</h3>
+                        <p>FPS (First-Person Shooter), TPS (Third-Person Shooter), Combate, Ação, Guerra, Armas, Estratégia, Preciso.</p>
                     </div>
                 </div>
                 <div class="category-card">
-                    <div class="category-icon">📱</div>
+                    <div class="category-icon">🏎️</div>
                     <div class="category-info">
-                        <h3>Periféricos</h3>
-                        <p>Teclados, mouses e acessórios</p>
+                        <h3>Corrida</h3>
+                        <p>Velocidade, Simulação, Arcade, Carro, Moto, Circuito, Piloto, Competição, Adrenalina.</p>
                     </div>
                 </div>
                 <div class="category-card">
-                    <div class="category-icon">🎮</div>
+                    <div class="category-icon">🧙</div>
                     <div class="category-info">
-                        <h3>Gaming</h3>
-                        <p>Equipamentos para gamers</p>
+                        <h3>Aventura</h3>
+                        <p> Exploração, Narrativa, Quebra-cabeça, História, RPG, Mundo Aberto, Ficção, Jornada.</p>
                     </div>
                 </div>
             </div>
