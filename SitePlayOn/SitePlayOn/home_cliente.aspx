@@ -422,12 +422,10 @@
                 <ul>
                     <li><a href="Home_cliente.aspx" style="color: #ffffff;">Página Inicial</a></li>                    
                     <li><a href="Produtos.aspx">Produtos</a></li>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
                     <li><a href="Categoria.aspx">Categoria</a></li>             
                     <li><asp:Button ID="btnLogout" OnClick="btnLogout_click" runat="server" Text="Sair" CssClass="btn-logout" /></li>                  
                     <li><asp:Label ID="lblWelcome" runat="server" Text=""></asp:Label></li>
+<<<<<<< Updated upstream
 =======
 >>>>>>> 43c39624d4030dc8e8d71ee68fce4457df6f3dc9
                     <li><a href="Categoria.aspx">Categoria</a></li>       
@@ -441,6 +439,8 @@
 =======
 >>>>>>> db51a403d3afe8d7c1373889a67cdc62be3becb8
 >>>>>>> 43c39624d4030dc8e8d71ee68fce4457df6f3dc9
+=======
+>>>>>>> Stashed changes
                 </ul>
             </nav>
         </div>

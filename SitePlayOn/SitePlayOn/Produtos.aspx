@@ -1,15 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage_Cliente.master" AutoEventWireup="true" CodeFile="Produtos.aspx.cs" Inherits="Produtos" %>
 
-<<<<<<< HEAD
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-</asp:Content>
-
-=======
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head runat="server">
+    <!DOCTYPE html>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Produtos - Play On</title>
@@ -191,9 +183,10 @@
             h2.section-title { font-size: 1.8rem; }
         }
     </style>
-</head>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    
 <body>
-    <form id="form1" runat="server">
         <!-- Cabeçalho -->
         <header>
             <div class="container header-content">
@@ -242,7 +235,6 @@
         <footer>
             &copy; 2025 Play On - Todos os direitos reservados
         </footer>
-    </form>
 </body>
-</html>
->>>>>>> 43c39624d4030dc8e8d71ee68fce4457df6f3dc9
+</asp:Content>
+
