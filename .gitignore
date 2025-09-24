@@ -32,3 +32,4 @@ packages/
 .nuget/
 SitePlayOn/SitePlayOn/App_Data/BancoLoja.mdf
 SitePlayOn/SitePlayOn/App_Data/BancoLoja_log.ldf
+*.mdf
