@@ -61,26 +61,28 @@
         }
         
         #gridUsuarios tr:hover td {
-            background: rgba(106, 17, 203, 0.1);
+            background: rgba(106, 17, 203, 0.06);
         }
         
         /* Estilização dos botões */
         .btn-grid {
             display: inline-block;
-            padding: 8px 15px;
+            padding: 6px 10px;
             border-radius: 5px;
             text-decoration: none;
             font-weight: 600;
-            transition: all 0.3s;
+            transition: all 0.25s;
             border: none;
             cursor: pointer;
-            font-size: 0.9rem;
-            margin-right: 5px;
+            font-size: 0.85rem;
+            margin-right: 6px;
+            color: #fff;
+            background: rgba(255,255,255,0.08);
         }
         
         .btn-edit {
             background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
-            color: white;
+            color: #ffffff;
         }
         
         .btn-delete {
@@ -91,26 +93,27 @@
         
         .btn-edit:hover {
             transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(106, 17, 203, 0.4);
+            box-shadow: 0 5px 12px rgba(106, 17, 203, 0.25);
         }
         
         .btn-delete:hover {
-            background: rgba(255, 71, 87, 0.1);
+            background: rgba(255, 71, 87, 0.08);
         }
         
         /* Estilização dos campos de edição */
         .edit-textbox {
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.04);
             border: 1px solid #3a3a52;
             border-radius: 5px;
-            padding: 8px;
-            color: white;
+            padding: 6px;
+            color: #fff;
             width: 100%;
         }
         
         .edit-textbox:focus {
             outline: none;
             border-color: #6a11cb;
+            box-shadow: 0 0 0 3px rgba(106,17,203,0.08);
         }
         
         /* Mensagens de status */
@@ -123,13 +126,13 @@
         }
         
         .status-success {
-            background: rgba(46, 204, 113, 0.2);
+            background: rgba(46, 204, 113, 0.12);
             border: 1px solid #2ecc71;
             color: #2ecc71;
         }
         
         .status-error {
-            background: rgba(231, 76, 60, 0.2);
+            background: rgba(231, 76, 60, 0.12);
             border: 1px solid #e74c3c;
             color: #e74c3c;
         }
@@ -146,6 +149,7 @@
             
             #gridUsuarios {
                 display: block;
+                width: 100%;
                 overflow-x: auto;
             }
         }
@@ -161,7 +165,7 @@
             OnRowCancelingEdit="gridUsuarios_RowCancelingEdit"
             OnRowUpdating="gridUsuarios_RowUpdating"
             OnRowDeleting="gridUsuarios_RowDeleting"
-            GridLines="None" CssClass="styled-grid">
+            GridLines="None">
             <Columns>
                 <asp:BoundField DataField="id_usuario" HeaderText="ID" ReadOnly="true" ItemStyle-CssClass="id-column" />
                 <asp:BoundField DataField="username" HeaderText="Usuário" />
@@ -179,51 +183,48 @@
                     UpdateText="Atualizar" 
                     DeleteText="Excluir"
                     ButtonType="Link"
-                    ControlStyle-CssClass="btn-grid"
-                    EditButtonStyle-CssClass="btn-edit"
-                    DeleteButtonStyle-CssClass="btn-delete" />
+                    ControlStyle-CssClass="btn-grid" />
             </Columns>
         </asp:GridView>
     </div>
     
     <script>
         // Adicionar classes CSS aos elementos da GridView após o carregamento
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             // Adicionar classes aos cabeçalhos
-            const headers = document.querySelectorAll('#gridUsuarios th');
-            headers.forEach(header => {
-                header.classList.add('grid-header');
-            });
-            
+            const headers = document.querySelectorAll('#<%= gridUsuarios.ClientID %> th');
+            headers.forEach(header => header.classList.add('grid-header'));
+
             // Adicionar classes às células
-            const cells = document.querySelectorAll('#gridUsuarios td');
-            cells.forEach(cell => {
-                cell.classList.add('grid-cell');
-            });
+            const cells = document.querySelectorAll('#<%= gridUsuarios.ClientID %> td');
+            cells.forEach(cell => cell.classList.add('grid-cell'));
             
-            // Adicionar classes aos botões
-            const editButtons = document.querySelectorAll('a[href*="Edit"]');
-            editButtons.forEach(button => {
-                button.classList.add('btn-grid', 'btn-edit');
+            // Adicionar classes aos botões de edição/remoção gerados pelo CommandField
+            // Observação: os links do GridView executam postback; aqui selecionamos pelos textos padrão
+            const anchors = document.querySelectorAll('#<%= gridUsuarios.ClientID %> a');
+            anchors.forEach(a => {
+                const txt = (a.textContent || a.innerText || '').trim().toLowerCase();
+                if (txt === 'editar' || txt === 'edit' || a.getAttribute('href')?.includes('Edit')) {
+                    a.classList.add('btn-grid', 'btn-edit');
+                } else if (txt === 'excluir' || txt === 'delete' || a.getAttribute('href')?.includes('Delete')) {
+                    a.classList.add('btn-grid', 'btn-delete');
+                }
             });
-            
-            const deleteButtons = document.querySelectorAll('a[href*="Delete"]');
-            deleteButtons.forEach(button => {
-                button.classList.add('btn-grid', 'btn-delete');
-            });
-            
-            // Adicionar classes aos campos de texto em modo de edição
-            const textboxes = document.querySelectorAll('#gridUsuarios input[type="text"]');
-            textboxes.forEach(textbox => {
-                textbox.classList.add('edit-textbox');
-            });
+
+            // Adicionar classes aos inputs de edição (quando existirem)
+            const textboxes = document.querySelectorAll('#<%= gridUsuarios.ClientID %> input[type="text"]');
+            textboxes.forEach(tb => tb.classList.add('edit-textbox'));
         });
-        
+
         // Confirmar exclusão
-        document.addEventListener('click', function(e) {
-            if (e.target && e.target.href && e.target.href.includes('Delete')) {
-                if (!confirm('Tem certeza que deseja excluir este usuário?')) {
-                    e.preventDefault();
+        document.addEventListener('click', function (e) {
+            const el = e.target;
+            if (el && el.tagName === 'A') {
+                const txt = (el.textContent || el.innerText || '').trim().toLowerCase();
+                if (txt === 'excluir' || txt === 'delete' || (el.getAttribute('href') && el.getAttribute('href').includes('Delete'))) {
+                    if (!confirm('Tem certeza que deseja excluir este usuário?')) {
+                        e.preventDefault();
+                    }
                 }
             }
         });

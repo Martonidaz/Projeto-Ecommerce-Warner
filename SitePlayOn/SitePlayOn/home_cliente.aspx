@@ -429,8 +429,8 @@
 =======
                     <li><a href="Categoria.aspx">Categoria</a></li>       
                     <li><a href="Cadastro_cliente.aspx">Cadastrar</a></li> 
-                    <li><a> <asp:Button ID="btnLogout" OnClick="btnLogout_click" runat="server" Text="Sair" /> </a></li>                  
-                    <li><a> <asp:Label ID="lblWelcome" runat="server" Text=""></asp:Label>
+                    <li><a> <asp:Button ID="btnLogout2" OnClick="btnLogout_click" runat="server" Text="Sair" /> </a></li>                  
+                    <li><a> <asp:Label ID="lblWelcome2" runat="server" Text=""></asp:Label>
                     </li>
 >>>>>>> db51a403d3afe8d7c1373889a67cdc62be3becb8
                 </ul>
