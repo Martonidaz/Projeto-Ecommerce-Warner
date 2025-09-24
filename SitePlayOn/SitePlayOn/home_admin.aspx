@@ -283,17 +283,17 @@
     <script>
         // Efeitos interativos para os botões
         document.querySelectorAll('.admin-btn').forEach(button => {
-            button.addEventListener('mouseenter', function() {
+            button.addEventListener('mouseenter', function () {
                 this.style.transform = 'translateY(-5px)';
             });
-            
-            button.addEventListener('mouseleave', function() {
+
+            button.addEventListener('mouseleave', function () {
                 this.style.transform = 'translateY(0)';
             });
         });
 
         // Confirmação para ações importantes
-        document.getElementById('btnSairAdmin').addEventListener('click', function(e) {
+        document.getElementById('btnSairAdmin').addEventListener('click', function (e) {
             if (!confirm('Tem certeza que deseja sair do modo administrador?')) {
                 e.preventDefault();
             }
