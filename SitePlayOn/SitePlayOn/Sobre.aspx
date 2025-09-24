@@ -21,7 +21,7 @@
                         <ul>
                             <li><a href="TelaInicio.aspx">Página Inicial</a></li>
                             <li><a href="Produtos.aspx">Jogos</a></li>
-                            <li><a href="Categoria.aspx">Sobre Nós</a></li>                          
+                            <li><a href="Sobre.aspx">Sobre Nós</a></li>                          
                             <li><a href="Login.aspx">Login</a></li>
                         </ul>        
                     </nav>
@@ -32,7 +32,7 @@
     <!-- Banner principal -->
     <section class="hero-banner">
         <div class="container hero-content">
-            <h2>Nossa História</h2>
+            <h2>Um pouco sobre seus criadores</h2>
             <p>Uma breve jornada ao mundo de venda de jogos digitais no vale do paraíba</p>
         </div>
     </section>
@@ -43,13 +43,13 @@
         <img src="scr/assets/image-sobre.png" />
     </div>
     <div class="product-info">
-        <h3>Início</h3>
-        <p class="product-description">Nossa história começou a partir de um projeto proposto pelo Prof. Me. Warner Brezolin
-            (também criador da produtora de filmes Warner Brezos) e a influência da disciplina do Prof. Me. Carlos Feichas, com a inspiração de levar jogos digitais mais acessíveis para o público vale paraibano com seus criadores:</p>
-        <br>Daniel Marton - Engenheiro de Software</br>    
-        <br>Breno Fernandes - Backend Sênior</br>    
-        <br>Mariana Freita - Frontend Sênior</br>    
-        <br>João Vitor Ferreira - Engenheiro de Dados</br>    
+    <p>Nossa história começou a partir de um projeto proposto pelo Prof. Me. Warner Brezolin (também criador da produtora de filmes Warner Brezos) e a influência da disciplina do Prof. Me. Carlos Feichas. A inspiração foi levar jogos digitais mais acessíveis para o público do Vale do Paraíba. Conheça nossos criadores:</p>
+                    <ul class="team-list">
+                        <li>Daniel Marton - Engenheiro de Software</li>
+                        <li>Breno Fernandes - Backend Sênior</li>
+                        <li>Mariana Freita - Frontend Sênior</li>
+                        <li>João Vitor Ferreira - Engenheiro de Dados</li>
+                    </ul>   
         
     </div>
     <!-- Newsletter -->

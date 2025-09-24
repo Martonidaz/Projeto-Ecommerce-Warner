@@ -21,7 +21,7 @@
                         <ul>
                             <li><a href="TelaInicio.aspx">Página Inicial</a></li>
                             <li><a href="Produtos.aspx">Jogos</a></li>
-                            <li><a href="Categoria.aspx">Categoria</a></li>                          
+                            <li><a href="Sobre.aspx">Sobre Nós</a></li>                          
                             <li><a href="Login.aspx">Login</a></li>
                         </ul>        
                     </nav>
@@ -40,7 +40,7 @@
     <!-- Categorias -->
     <section class="categories">
         <div class="container">
-            <h2 class="section-title">Categoria de Jogos</h2>
+            <h2 class="section-title">Gêneros de Jogos</h2>
             <div class="category-grid">
                 <div class="category-card">
                     <div class="category-icon">🧟</div>
@@ -184,7 +184,7 @@
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h3>Categorias</h3>
+                    <h3>Gêneros</h3>
                     <ul>
                         <li><a href="#">Terror</a></li>
                         <li><a href="#">Tiro</a></li>
