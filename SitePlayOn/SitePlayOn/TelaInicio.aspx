@@ -20,7 +20,7 @@
                     <nav>
                         <ul>
                             <li><a href="TelaInicio.aspx">Página Inicial</a></li>
-                            <li><a href="Produtos.aspx">Produtos</a></li>
+                            <li><a href="Produtos.aspx">Jogos</a></li>
                             <li><a href="Categoria.aspx">Categoria</a></li>                          
                             <li><a href="Login.aspx">Login</a></li>
                         </ul>        
@@ -82,6 +82,7 @@
             <div class="products-grid">
                 <div class="product-card">
                     <div class="product-image">
+                        <img src="" class="logo-img"/>
                         <div>Dead By Daylight</div>
                     </div>
                     <div class="product-info">
@@ -175,8 +176,8 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>Blast Byte Boutique</h3>
-                    <p>Sua loja de confiança para produtos de informática e tecnologia.</p>
+                    <h3>Play On</h3>
+                    <p>Sua loja de confiança para jogos.</p>
                 </div>
                 <div class="footer-section">
                     <h3>Links Rápidos</h3>
@@ -190,16 +191,16 @@
                 <div class="footer-section">
                     <h3>Categorias</h3>
                     <ul>
-                        <li><a href="#">Notebooks</a></li>
-                        <li><a href="#">Computadores</a></li>
-                        <li><a href="#">Periféricos</a></li>
-                        <li><a href="#">Acessórios</a></li>
+                        <li><a href="#">Terror</a></li>
+                        <li><a href="#">Tiro</a></li>
+                        <li><a href="#">Corrida</a></li>
+                        <li><a href="#">Aventura</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h3>Contato</h3>
                     <ul>
-                        <li>Email: contato@blastbyte.com</li>
+                        <li>Email: contato@playon.com</li>
                         <li>Telefone: (11) 3456-7890</li>
                         <li>Endereço: Rua da Tecnologia, 123</li>
                     </ul>
@@ -211,7 +212,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2023 Blast Byte Boutique - Todos os direitos reservados</p>
+                <p>&copy; 2023 Play On - Todos os direitos reservados</p>
             </div>
         </div>
     </footer>
