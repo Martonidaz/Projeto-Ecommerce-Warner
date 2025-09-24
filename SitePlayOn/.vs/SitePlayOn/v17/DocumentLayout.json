@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\",
   "Documents": [
     {
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|c:\\users\\breno\\onedrive\\documentos\\estudo\\projeto-ecommerce-warner\\siteplayon\\siteplayon\\cadastro_cliente.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|solutionrelative:siteplayon\\cadastro_cliente.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
       "AbsoluteMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|c:\\users\\zakin\\documents\\github\\projeto-ecommerce-warner\\siteplayon\\siteplayon\\telainicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|solutionrelative:siteplayon\\telainicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
@@ -17,10 +21,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\siteplayon\\home_cliente.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|solutionrelative:siteplayon\\home_cliente.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+<<<<<<< HEAD
     },
     {
       "AbsoluteMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\siteplayon\\scr\\site\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|solutionrelative:siteplayon\\scr\\site\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+=======
+>>>>>>> 41ce4cfea8114b187893e360b158a60418ddcab2
+>>>>>>> 4580c0535e93dd906f26e8e44f7dbacc2ce83779
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +38,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 4,
+=======
+<<<<<<< HEAD
+          "SelectedChildIndex": 5,
+=======
+          "SelectedChildIndex": 6,
+>>>>>>> 41ce4cfea8114b187893e360b158a60418ddcab2
+>>>>>>> 4580c0535e93dd906f26e8e44f7dbacc2ce83779
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,6 +66,47 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
+=======
+              "DocumentIndex": 1,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\scr\\site\\style.css",
+              "RelativeDocumentMoniker": "SitePlayOn\\scr\\site\\style.css",
+              "ToolTip": "C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\scr\\site\\style.css",
+              "RelativeToolTip": "SitePlayOn\\scr\\site\\style.css",
+              "ViewState": "AgIAAGgAAAAAAAAAAAASwFEAAAC7AQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-23T23:19:21.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 0,
+              "Title": "Cadastro_cliente.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\Cadastro_cliente.aspx.cs",
+              "RelativeDocumentMoniker": "SitePlayOn\\Cadastro_cliente.aspx.cs",
+              "ToolTip": "C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\Cadastro_cliente.aspx.cs",
+              "RelativeToolTip": "SitePlayOn\\Cadastro_cliente.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T23:00:15.414Z",
+              "EditorCaption": ""
+=======
+              "DocumentIndex": 2,
+              "Title": "home_admin.aspx",
+              "DocumentMoniker": "C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\home_admin.aspx",
+              "RelativeDocumentMoniker": "SitePlayOn\\home_admin.aspx",
+              "ToolTip": "C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\home_admin.aspx",
+              "RelativeToolTip": "SitePlayOn\\home_admin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-23T23:19:22.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+>>>>>>> 4580c0535e93dd906f26e8e44f7dbacc2ce83779
               "DocumentIndex": 0,
               "Title": "TelaInicio.aspx",
               "DocumentMoniker": "C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\TelaInicio.aspx",
@@ -106,8 +163,14 @@
               "ToolTip": "C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\home_cliente.aspx*",
               "RelativeToolTip": "..\\..\\..\\..\\..\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\home_cliente.aspx*",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+<<<<<<< HEAD
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFpSURBVDhPnZM9S8NgEMf/TXVJfB0cdKiQxcE6OVSdHSOiDkIXZ7\u002BAmk8Q8Qs4ioubL9GsDi5iRadMLoEWrEJBK9qApo161zwxpomiPwj3Eu7/3N2TZBDDdd33wP0RWZa5NlFA07Qg6kRVVRiGAUVRWCRV4GD/MMh8sbi0wDYqInHmjziOA13X2f\u002BXAEEiRDhCdHm2bSM/nofv\u002B2i1/CD7HRrHsqx2B1Rcfmli\u002BbQGeaeMwlUflN0KimcPqL59ntK5qhBJFE\u002BZd5gZ6uZkvTjCluLp43vcvqbfLHewVnrExkQvVscUTgoopvz6ZR3ZbPK6MtQBtf0bjZUcPK8ZRJEdUPsEtS1aj1rhpyGN9nSxM7BX5Uf4wgo/DR6Btk8Lo5mpgE4VdvumgfOah1nnCKZpBmVtaAQWELdAC9Ovn0IBY7Ifm/YzLuaHITqNwxcsROg2TiouvyDmcjK2CoNcLP6\u002BOIlfYpy0YgD4ANtBrSGAiU8IAAAAAElFTkSuQmCC",
               "WhenOpened": "2025-09-24T00:32:50.989Z"
+=======
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-23T22:31:46.92Z"
+>>>>>>> 41ce4cfea8114b187893e360b158a60418ddcab2
+>>>>>>> 4580c0535e93dd906f26e8e44f7dbacc2ce83779
             }
           ]
         }
