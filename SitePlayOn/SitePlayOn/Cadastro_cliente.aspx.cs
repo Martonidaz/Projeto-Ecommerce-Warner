@@ -70,7 +70,7 @@ public partial class Cadastro_cliente : System.Web.UI.Page
 
                 int idCliente = (int)cmdCliente.ExecuteScalar();
 
-                string sqlUsuario = @"INSER INTO Usuario (username, senha,id_cliente, tipousuario) VALUES (@username, @senha, @id_cliente, @tipousuario)";
+                string sqlUsuario = @"INSER INTO Usuario (username, senha,id_cliente, tipousuario) VALUES (@username, @senha, @id_cliente, @tipousuario) SELECT SCOPE_IDENTITY()" ;
 
                 SqlCommand cmdUsuario = new SqlCommand(sqlUsuario, con);
 
