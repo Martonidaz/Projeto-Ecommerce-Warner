@@ -82,14 +82,6 @@ public partial class Cadastro_cliente : System.Web.UI.Page
                 string sqlVerifica = "SELECT COUNT(*) FROM CLIENTE WHERE email=@email";
                 SqlCommand cmdVerifica = new SqlCommand(sqlVerifica, con);
 
-                int count = (int)cmdVerifica.ExecuteScalar();
-
-                if(count > 0)
-                {
-                    lblCadastro.Text = "Email já existe";
-                    return;
-                }
-
                 cmdCliente.ExecuteNonQuery();
 
                 Response.Redirect("Login.aspx");
