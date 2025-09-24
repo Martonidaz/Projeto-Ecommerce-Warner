@@ -478,59 +478,6 @@
         </div>
     </section>
 
-    <!-- Produtos em destaque -->
-    <section class="featured-products">
-        <div class="container">
-            <h2 class="section-title">Jogos em Destaque</h2>
-            <div class="products-grid">
-                <div class="product-card">
-                    <div class="product-image">
-                        <div>Dead By Daylight</div>
-                    </div>
-                    <div class="product-info">
-                        <h3>Dead By Daylight</h3>
-                        <p class="product-price">R$ 19,99</p>
-                        <p class="product-description">Horror de sobrevivência multijogador (4vs1) com diversos assassinos e sobreviventes</p>
-                        <a href="#" class="btn">Comprar</a>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <div>Cyberpunk 2077</div>
-                    </div>
-                    <div class="product-info">
-                        <h3>Cyberpunk 2077</h3>
-                        <p class="product-price">R$ 149,90</p>
-                        <p class="product-description">RPG de mundo aberto em Night City, com história envolvente e gráficos impressionantes</p>
-                        <a href="#" class="btn">Comprar</a>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <div>FIFA 24</div>
-                    </div>
-                    <div class="product-info">
-                        <h3>FIFA 24</h3>
-                        <p class="product-price">R$ 249,90</p>
-                        <p class="product-description">A experiência definitiva de futebol com times reais e jogabilidade aprimorada</p>
-                        <a href="#" class="btn">Comprar</a>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <div>Resident Evil 4</div>
-                    </div>
-                    <div class="product-info">
-                        <h3>Resident Evil 4</h3>
-                        <p class="product-price">R$ 199,90</p>
-                        <p class="product-description">Remake do clássico de survival horror com gráficos modernos e jogabilidade atualizada</p>
-                        <a href="#" class="btn">Comprar</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Rodapé -->
     <footer>
         <div class="container">
@@ -542,7 +489,7 @@
                 <div class="footer-section">
                     <h3>Links Rápidos</h3>
                     <ul>
-                        <li><a href="#">Sobre nós</a></li>
+                        <li><a href="Sobre.aspx">Sobre nós</a></li>
                         <li><a href="#">Politica de privacidade</a></li>
                         <li><a href="#">Termos de uso</a></li>
                         <li><a href="#">Trocas e devoluções</a></li>
@@ -551,10 +498,10 @@
                 <div class="footer-section">
                     <h3>Categorias</h3>
                     <ul>
-                        <li><a href="#">Ação</a></li>
-                        <li><a href="#">Aventura</a></li>
-                        <li><a href="#">Esportes</a></li>
-                        <li><a href="#">Terror</a></li>
+                        <li><a href="Produtos.aspx">Ação</a></li>
+                        <li><a href="Produtos.aspx">Aventura</a></li>
+                        <li><a href="Produtos.aspx">Esportes</a></li>
+                        <li><a href="Produtos.aspx">Terror</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">

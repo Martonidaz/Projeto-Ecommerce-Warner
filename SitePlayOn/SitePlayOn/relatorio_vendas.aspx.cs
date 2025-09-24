@@ -14,11 +14,22 @@ public partial class relatorio_vendas : System.Web.UI.Page
     {
         if (!IsPostBack)
         {
+            if (Session["tipousuario"] != null || Session["tipousuario"].ToString() == "admin")
+            {
+                if (!IsPostBack)
+                    CarregarVendas();
+            }
+            else
+            {
+                // redirecione ou trate o acesso não autorizado conforme sua aplicação
+                Response.Redirect("Login.aspx");
+            }
+
             // Define datas padrão (últimos 30 dias)
             txtDataInicio.Text = DateTime.Now.AddDays(-30).ToString("yyyy-MM-dd");
             txtDataFim.Text = DateTime.Now.ToString("yyyy-MM-dd");
 
-            CarregarVendas();
+            
         }
     }
 
@@ -155,5 +166,10 @@ public partial class relatorio_vendas : System.Web.UI.Page
                 rptItens.DataBind();
             }
         }
+    }
+
+    protected void SairVendas_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("Home_admin.aspx");
     }
 }

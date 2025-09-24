@@ -462,7 +462,7 @@
                 <div class="footer-section">
                     <h3>Links Rápidos</h3>
                     <ul>
-                        <li><a href="#">Sobre nós</a></li>
+                        <li><a href="Sobre.aspx">Sobre nós</a></li>
                         <li><a href="#">Politica de privacidade</a></li>
                         <li><a href="#">Termos de uso</a></li>
                         <li><a href="#">Trocas e devoluções</a></li>
@@ -471,10 +471,10 @@
                 <div class="footer-section">
                     <h3>Categorias</h3>
                     <ul>
-                        <li><a href="#">Terror</a></li>
-                        <li><a href="#">Tiro</a></li>
-                        <li><a href="#">Corrida</a></li>
-                        <li><a href="#">Aventura</a></li>
+                        <li><a href="Produtos.aspx">Terror</a></li>
+                        <li><a href="Produtos.aspx">Tiro</a></li>
+                        <li><a href="Produtos.aspx">Corrida</a></li>
+                        <li><a href="Produtos.aspx">Aventura</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">

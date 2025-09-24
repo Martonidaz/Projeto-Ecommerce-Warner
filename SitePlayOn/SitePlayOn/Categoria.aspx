@@ -169,7 +169,7 @@
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="TelaInicio.aspx">Página Inicial</a></li>
+                        <li><a href="Home_cliente.aspx">Página Inicial</a></li>
                         <li><a href="Produtos.aspx">Jogos</a></li>
                         <li><a href="Categoria.aspx">Categoria</a></li>
                         <li><a href="Login.aspx">Login</a></li>

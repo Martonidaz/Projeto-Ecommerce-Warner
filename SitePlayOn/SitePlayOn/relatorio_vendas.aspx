@@ -143,6 +143,8 @@
             </Columns>
         </asp:GridView>
 
+        <asp:Button ID="SairVendas" runat="server" Text="Home Admin" OnClick="SairVendas_Click" />
+
         <!-- Mensagem sem registros -->
         <asp:Panel ID="pnlSemRegistros" runat="server" Visible="false" CssClass="sem-registros">
             <h3>📭 Nenhuma venda encontrada</h3>
