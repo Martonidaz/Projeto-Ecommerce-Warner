@@ -30,4 +30,9 @@ public partial class Home_admin : System.Web.UI.Page
         Session.Abandon();
         Response.Redirect("~/TelaInicio.aspx");
     }
+
+    protected void btnCadastrarJogo_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("/cadastro_jogos.aspx");
+    }
 }

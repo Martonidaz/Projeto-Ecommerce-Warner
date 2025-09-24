@@ -3,29 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\",
   "Documents": [
     {
-<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|c:\\users\\breno\\onedrive\\documentos\\estudo\\projeto-ecommerce-warner\\siteplayon\\siteplayon\\cadastro_jogos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|solutionrelative:siteplayon\\cadastro_jogos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|c:\\users\\breno\\onedrive\\documentos\\estudo\\projeto-ecommerce-warner\\siteplayon\\siteplayon\\cadastro_jogos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|solutionrelative:siteplayon\\cadastro_jogos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|c:\\users\\breno\\onedrive\\documentos\\estudo\\projeto-ecommerce-warner\\siteplayon\\siteplayon\\cadastro_cliente.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|solutionrelative:siteplayon\\cadastro_cliente.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|c:\\users\\zakin\\documents\\github\\projeto-ecommerce-warner\\siteplayon\\siteplayon\\telainicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|solutionrelative:siteplayon\\telainicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\siteplayon\\home_admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|solutionrelative:siteplayon\\home_admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\siteplayon\\home_cliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|solutionrelative:siteplayon\\home_cliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\siteplayon\\home_cliente.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|solutionrelative:siteplayon\\home_cliente.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\siteplayon\\scr\\site\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|solutionrelative:siteplayon\\scr\\site\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
->>>>>>> fc263a54ddd51d76c0a8aaaca4ee42df05de9674
     }
   ],
   "DocumentGroupContainers": [
@@ -35,11 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< HEAD
           "SelectedChildIndex": 5,
-=======
-          "SelectedChildIndex": 4,
->>>>>>> fc263a54ddd51d76c0a8aaaca4ee42df05de9674
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,83 +41,68 @@
               "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
             },
             {
-<<<<<<< HEAD
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "cadastro_jogos.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\cadastro_jogos.aspx.cs",
+              "RelativeDocumentMoniker": "SitePlayOn\\cadastro_jogos.aspx.cs",
+              "ToolTip": "C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\cadastro_jogos.aspx.cs",
+              "RelativeToolTip": "SitePlayOn\\cadastro_jogos.aspx.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAD4vzkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T01:15:55.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "cadastro_jogos.aspx",
+              "DocumentMoniker": "C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\cadastro_jogos.aspx",
+              "RelativeDocumentMoniker": "SitePlayOn\\cadastro_jogos.aspx",
+              "ToolTip": "C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\cadastro_jogos.aspx",
+              "RelativeToolTip": "SitePlayOn\\cadastro_jogos.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-24T01:07:40.861Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "c6e3a07d-52cd-4ca9-8c7c-2ee2c8cbcc6f",
+        "Display": 1,
+        "X": -5,
+        "Y": 253,
+        "Width": 1180,
+        "Height": 784,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Cadastro_cliente.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\Cadastro_cliente.aspx.cs",
               "RelativeDocumentMoniker": "SitePlayOn\\Cadastro_cliente.aspx.cs",
               "ToolTip": "C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\Cadastro_cliente.aspx.cs",
               "RelativeToolTip": "SitePlayOn\\Cadastro_cliente.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T23:00:15.414Z",
+              "WhenOpened": "2025-09-24T01:15:33.001Z",
               "EditorCaption": ""
-=======
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TelaInicio.aspx",
-              "DocumentMoniker": "C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\TelaInicio.aspx",
-              "RelativeDocumentMoniker": "SitePlayOn\\TelaInicio.aspx",
-              "ToolTip": "C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\TelaInicio.aspx",
-              "RelativeToolTip": "SitePlayOn\\TelaInicio.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-24T00:32:50.892Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "style.css",
-              "DocumentMoniker": "C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\scr\\site\\style.css",
-              "RelativeDocumentMoniker": "SitePlayOn\\scr\\site\\style.css",
-              "ToolTip": "C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\scr\\site\\style.css",
-              "RelativeToolTip": "SitePlayOn\\scr\\site\\style.css",
-              "ViewState": "AgIAALEBAAAAAAAAAAAAANQBAAAAAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADfSURBVDhPY6AUMEJphm/fvv2HMvECLi4uuB4QQDHAx8cHysMELi4uDAUFBWA2uiFgADLAycnp/4f3HzEwSByE29ra/oPUIbuWCUqjgKDgQCgLFezZs4dhwoQJUB4EYDVg3dr1UBYmABmCDIhyAchAGEYHRLngoq0nw1l9GygPFRB0AUij1qJpUB4mwOsCkGb1qV0M3BpqYD42gNUAEIA5\u002BWZ2GcNxDXMwGxvAagBIs\u002Baq\u002BQzGF4/AMS6A1QCQBi51VSgPAnAZQnRSRgZbtmyBJ2cUA6BMogDW/EA6YGAAANPDadv4Eqt6AAAAAElFTkSuQmCC",
-              "WhenOpened": "2025-09-24T00:32:50.975Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "home_admin.aspx",
-              "DocumentMoniker": "C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\home_admin.aspx",
-              "RelativeDocumentMoniker": "SitePlayOn\\home_admin.aspx",
-              "ToolTip": "C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\home_admin.aspx",
-              "RelativeToolTip": "SitePlayOn\\home_admin.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFpSURBVDhPnZM9S8NgEMf/TXVJfB0cdKiQxcE6OVSdHSOiDkIXZ7\u002BAmk8Q8Qs4ioubL9GsDi5iRadMLoEWrEJBK9qApo161zwxpomiPwj3Eu7/3N2TZBDDdd33wP0RWZa5NlFA07Qg6kRVVRiGAUVRWCRV4GD/MMh8sbi0wDYqInHmjziOA13X2f\u002BXAEEiRDhCdHm2bSM/nofv\u002B2i1/CD7HRrHsqx2B1Rcfmli\u002BbQGeaeMwlUflN0KimcPqL59ntK5qhBJFE\u002BZd5gZ6uZkvTjCluLp43vcvqbfLHewVnrExkQvVscUTgoopvz6ZR3ZbPK6MtQBtf0bjZUcPK8ZRJEdUPsEtS1aj1rhpyGN9nSxM7BX5Uf4wgo/DR6Btk8Lo5mpgE4VdvumgfOah1nnCKZpBmVtaAQWELdAC9Ovn0IBY7Ifm/YzLuaHITqNwxcsROg2TiouvyDmcjK2CoNcLP6\u002BOIlfYpy0YgD4ANtBrSGAiU8IAAAAAElFTkSuQmCC",
-              "WhenOpened": "2025-09-24T00:32:50.978Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "home_cliente.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\home_cliente.aspx.cs",
-              "RelativeDocumentMoniker": "SitePlayOn\\home_cliente.aspx.cs",
-              "ToolTip": "C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\home_cliente.aspx.cs",
-              "RelativeToolTip": "SitePlayOn\\home_cliente.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADfSURBVDhPY/z27dt/BhyAi4uLEcrECZiQFaXNOsHAFbsMTIMAyHB0DJZABugKYibs\u002B88QPAdMg/hOTk5g3NbWBlcD1QoGYC\u002BAbMUGYmyVGGYkmzH4\u002BfuB\u002BS4uLgwFBQVgNszlTGAekWDPnj0MEyZMgPIgAGzAt8VRcAyyFQRgtv/58xfMhwGQIRgA5jdk/3/5/OX/h/cfMTAoPJDDAWs0/vv7D8NmGAgKDmTYsmULIgxADBjHx8eH4dfP3zg1YwMkBSI2MAwMgOcDUGyAApEYgBwLKAZAmUQBmAEUAgYGAD7Gqti8PqzlAAAAAElFTkSuQmCC",
-              "WhenOpened": "2025-09-24T00:32:50.984Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "home_cliente.aspx",
-              "DocumentMoniker": "C:\\Users\\zakin\\Documents\\GitHub\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\home_cliente.aspx",
-              "RelativeDocumentMoniker": "SitePlayOn\\home_cliente.aspx",
-              "ToolTip": "C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\home_cliente.aspx*",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\home_cliente.aspx*",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFpSURBVDhPnZM9S8NgEMf/TXVJfB0cdKiQxcE6OVSdHSOiDkIXZ7\u002BAmk8Q8Qs4ioubL9GsDi5iRadMLoEWrEJBK9qApo161zwxpomiPwj3Eu7/3N2TZBDDdd33wP0RWZa5NlFA07Qg6kRVVRiGAUVRWCRV4GD/MMh8sbi0wDYqInHmjziOA13X2f\u002BXAEEiRDhCdHm2bSM/nofv\u002B2i1/CD7HRrHsqx2B1Rcfmli\u002BbQGeaeMwlUflN0KimcPqL59ntK5qhBJFE\u002BZd5gZ6uZkvTjCluLp43vcvqbfLHewVnrExkQvVscUTgoopvz6ZR3ZbPK6MtQBtf0bjZUcPK8ZRJEdUPsEtS1aj1rhpyGN9nSxM7BX5Uf4wgo/DR6Btk8Lo5mpgE4VdvumgfOah1nnCKZpBmVtaAQWELdAC9Ovn0IBY7Ifm/YzLuaHITqNwxcsROg2TiouvyDmcjK2CoNcLP6\u002BOIlfYpy0YgD4ANtBrSGAiU8IAAAAAElFTkSuQmCC",
-              "WhenOpened": "2025-09-24T00:32:50.989Z"
->>>>>>> fc263a54ddd51d76c0a8aaaca4ee42df05de9674
             }
           ]
         }

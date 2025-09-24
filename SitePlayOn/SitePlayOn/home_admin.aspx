@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <div class="menu-admin">
         <asp:Button ID="btnCadastroUsuario" runat="server" Text="Cadastrar Usuário" OnClick="btnCadastroUsuario_Click" />
-        <asp:Button ID="btnCadastrarJogo" runat="server" Text="Cadastrar Jogo" />
+        <asp:Button ID="btnCadastrarJogo" runat="server" Text="Cadastrar Jogo" OnClick="btnCadastrarJogo_Click" />
         <asp:Button ID="btnCadastrarPlataformas" runat="server" Text="Cadastrar Plataformas" />   
 
         <asp:Button ID="btnVisualizarUsuarios" runat="server" Text="Visualizar Usuários" OnClick="btnVisualizarUsuarios_Click" />
