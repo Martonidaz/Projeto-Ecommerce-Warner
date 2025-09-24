@@ -35,4 +35,9 @@ public partial class Home_admin : System.Web.UI.Page
     {
         Response.Redirect("/cadastro_jogos.aspx");
     }
+
+    protected void btnTelaCliente_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("/Home_cliente.apsx");
+    }
 }
