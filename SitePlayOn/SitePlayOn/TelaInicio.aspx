@@ -1,11 +1,9 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="TelaInicio.aspx.cs" Inherits="TelaInicio" %>
-
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PlayOn - Sua Loja de Jogos</title>
+    <title>Dead By Daylight - PlayOn</title>
     <style>
         /* Reset e configurações gerais */
         * {
@@ -98,173 +96,64 @@
             width: 100%;
         }
         
-        /* Banner principal */
-        .hero-banner {
-            background: linear-gradient(rgba(15, 15, 27, 0.7), rgba(15, 15, 27, 0.9)), 
-                        url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
-            background-size: cover;
-            background-position: center;
-            height: 80vh;
-            display: flex;
-            align-items: center;
-            margin-top: 70px;
-            text-align: center;
+        /* Conteúdo principal */
+        .game-detail {
+            margin-top: 100px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 60px;
         }
         
-        .hero-content h2 {
-            font-size: 3.5rem;
-            margin-bottom: 20px;
+        .game-image {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+        
+        .game-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .game-info {
+            padding: 20px 0;
+        }
+        
+        .game-title {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
             background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
         }
         
-        .hero-content p {
-            font-size: 1.2rem;
-            max-width: 600px;
-            margin: 0 auto;
-            color: #b8b8d0;
-        }
-        
-        /* Seções */
-        section {
-            padding: 80px 0;
-        }
-        
-        .section-title {
-            text-align: center;
-            font-size: 2.5rem;
-            margin-bottom: 50px;
-            position: relative;
-        }
-        
-        .section-title::after {
-            content: '';
-            position: absolute;
-            bottom: -10px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 100px;
-            height: 3px;
-            background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
-        }
-        
-        /* Categorias */
-        .category-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 30px;
-        }
-        
-        .category-card {
-            background: rgba(42, 42, 60, 0.6);
-            border-radius: 10px;
-            padding: 30px;
-            text-align: center;
-            transition: transform 0.3s, box-shadow 0.3s;
-            border: 1px solid #3a3a52;
-        }
-        
-        .category-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-            border-color: #6a11cb;
-        }
-        
-        .category-icon {
-            font-size: 3rem;
-            margin-bottom: 20px;
-        }
-        
-        .category-info h3 {
-            font-size: 1.5rem;
-            margin-bottom: 10px;
-            color: #ffffff;
-        }
-        
-        .category-info p {
-            color: #b8b8d0;
-            font-size: 0.9rem;
-        }
-        
-        /* Produtos em destaque */
-        .products-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 30px;
-        }
-        
-        .product-card {
-            background: rgba(42, 42, 60, 0.6);
-            border-radius: 10px;
-            overflow: hidden;
-            transition: transform 0.3s, box-shadow 0.3s;
-            border: 1px solid #3a3a52;
-        }
-        
-        .product-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-            border-color: #6a11cb;
-        }
-        
-        .product-image {
-            height: 200px;
-            overflow: hidden;
-        }
-        
-        .product-image img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: transform 0.5s;
-        }
-        
-        .product-card:hover .product-image img {
-            transform: scale(1.05);
-        }
-        
-        .product-info {
-            padding: 20px;
-        }
-        
-        .product-info h3 {
-            font-size: 1.3rem;
-            margin-bottom: 10px;
-            color: #ffffff;
-        }
-        
-        .product-price {
-            font-size: 1.5rem;
+        .game-price {
+            font-size: 2rem;
             font-weight: 700;
             color: #6a11cb;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
         
-        .product-description {
+        .game-description {
             color: #b8b8d0;
-            font-size: 0.9rem;
-            margin-bottom: 20px;
-            display: -webkit-box;
-            -webkit-line-clamp: 3;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-            height: 60px;
+            margin-bottom: 30px;
+            line-height: 1.8;
         }
         
         .btn {
             display: inline-block;
             background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
             color: white;
-            padding: 10px 20px;
+            padding: 15px 30px;
             border-radius: 5px;
             text-decoration: none;
             font-weight: 600;
             transition: all 0.3s;
             border: none;
             cursor: pointer;
-            width: 100%;
+            font-size: 1.1rem;
             text-align: center;
         }
         
@@ -273,67 +162,96 @@
             box-shadow: 0 5px 15px rgba(106, 17, 203, 0.4);
         }
         
-        /* Newsletter */
-        .newsletter {
-            background: linear-gradient(90deg, #1a1a2e 0%, #16213e 100%);
-            text-align: center;
-            padding: 60px 0;
-        }
-        
-        .newsletter h2 {
-            font-size: 2rem;
+        .btn-large {
+            padding: 18px 40px;
+            font-size: 1.2rem;
+            width: 100%;
             margin-bottom: 15px;
         }
         
-        .newsletter p {
-            color: #b8b8d0;
+        .btn-secondary {
+            background: transparent;
+            border: 2px solid #6a11cb;
+            color: #6a11cb;
+        }
+        
+        .btn-secondary:hover {
+            background: rgba(106, 17, 203, 0.1);
+        }
+        
+        /* Seções de detalhes */
+        .game-details {
+            margin-bottom: 60px;
+        }
+        
+        .section-title {
+            font-size: 2rem;
             margin-bottom: 30px;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
+            position: relative;
+            padding-bottom: 10px;
         }
         
-        .newsletter-form {
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100px;
+            height: 3px;
+            background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+        }
+        
+        .genres {
             display: flex;
-            max-width: 500px;
-            margin: 0 auto;
-            gap: 10px;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
         }
         
-        .newsletter-form input {
-            flex: 1;
-            padding: 12px 15px;
-            border: none;
-            border-radius: 5px;
-            background: rgba(255, 255, 255, 0.1);
-            color: white;
-            font-size: 1rem;
+        .genre-tag {
+            background: rgba(106, 17, 203, 0.2);
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            border: 1px solid #6a11cb;
         }
         
-        .newsletter-form input::placeholder {
+        .requirements {
+            background: rgba(42, 42, 60, 0.6);
+            border-radius: 10px;
+            padding: 30px;
+            border: 1px solid #3a3a52;
+        }
+        
+        .requirements h3 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+        
+        .requirements-list {
+            list-style: none;
+        }
+        
+        .requirements-list li {
+            margin-bottom: 15px;
+            padding-left: 20px;
+            position: relative;
             color: #b8b8d0;
         }
         
-        .newsletter-form button {
-            padding: 12px 25px;
-            background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
-            color: white;
-            border: none;
-            border-radius: 5px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s;
-        }
-        
-        .newsletter-form button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(106, 17, 203, 0.4);
+        .requirements-list li::before {
+            content: '•';
+            color: #6a11cb;
+            position: absolute;
+            left: 0;
         }
         
         /* Rodapé */
         footer {
             background: #0a0a14;
             padding: 60px 0 20px;
+            margin-top: 60px;
         }
         
         .footer-content {
@@ -422,26 +340,27 @@
                 gap: 15px;
             }
             
-            .hero-content h2 {
-                font-size: 2.5rem;
-            }
-            
-            .newsletter-form {
-                flex-direction: column;
-            }
-            
-            .category-grid, .products-grid {
+            .game-detail {
                 grid-template-columns: 1fr;
+                margin-top: 120px;
             }
-        }
-        
-        @media (max-width: 480px) {
-            .hero-content h2 {
+            
+            .game-title {
                 font-size: 2rem;
             }
             
             .section-title {
-                font-size: 2rem;
+                font-size: 1.8rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .game-title {
+                font-size: 1.8rem;
+            }
+            
+            .section-title {
+                font-size: 1.5rem;
             }
             
             .footer-content {
@@ -451,179 +370,86 @@
     </style>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <!-- Cabeçalho -->
-<<<<<<< Updated upstream
-            <header>
-                <div class="container header-content">
-                    <div class="logo">
-                        <img src="../scr/assets/playonlogo.png" class="logo-img"/>
-                        <h1>Play On</h1>
-                    </div>
-                    <nav>
-                        <ul>
-                            <li><a href="TelaInicio.aspx">Página Inicial</a></li>
-                            <li><a href="Produtos.aspx">Jogos</a></li>
-                            <li><a href="Sobre.aspx">Sobre Nós</a></li>                          
-                            <li><a href="Login.aspx">Login</a></li>
-                        </ul>        
-                    </nav>
-=======
-        <header>
-            <div class="container header-content">
-                <div class="logo">
-                    <img src="../scr/assets/playonlogo.png" class="logo-img" alt="PlayOn Logo"/>
-                    <h1>Play On</h1>
->>>>>>> Stashed changes
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="TelaInicio.aspx">Página Inicial</a></li>
-                        <li><a href="Produtos.aspx">Jogos</a></li>
-                        <li><a href="Categoria.aspx">Categoria</a></li>                          
-                        <li><a href="Login.aspx">Login</a></li>
-                    </ul>        
-                </nav>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <div class="logo-img">🎮</div>
+                <h1>Play On</h1>
             </div>
-        </header>
-    </form>
-
-    <!-- Banner principal -->
-    <section class="hero-banner">
-        <div class="container hero-content">
-            <h2>Jogos a Preços Acessíveis</h2>
-            <p>Encontre os melhores títulos dos games com garantia e entrega rápida</p>
+            <nav>
+                <ul>
+                    <li><a href="TelaInicio.aspx">Página Inicial</a></li>
+                    <li><a href="Produtos.aspx">Jogos</a></li>
+                    <li><a href="Categoria.aspx">Categoria</a></li>                          
+                    <li><a href="Login.aspx">Login</a></li>
+                </ul>        
+            </nav>
         </div>
-    </section>
+    </header>
 
-    <!-- Categorias -->
-    <section class="categories">
-        <div class="container">
+    <!-- Conteúdo principal -->
+    <div class="container">
+        <section class="game-detail">
+            <div class="game-image">
+                <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Dead By Daylight">
+            </div>
+            
+            <div class="game-info">
+                <h1 class="game-title">DEAD BY DAYLIGHT</h1>
+                <div class="game-price">R$ 19,99</div>
+                <p class="game-description">
+                    Dead by Daylight é um jogo de horror de sobrevivência multijogador (4vs1) 
+                    em que um jogador assume o papel de um Assassino selvagem e os outros quatro 
+                    jogadores são os Sobreviventes tentando escapar dele para evitar serem capturados, 
+                    torturados e mortos.
+                </p>
+                
+                <div class="action-buttons">
+                    <a href="#" class="btn btn-large">Comprar Agora</a>
+                    <a href="#" class="btn btn-secondary btn-large">Adicionar à Lista de Desejos</a>
+                </div>
+                
+                <div class="game-features">
+                    <h3 class="section-title">Características Principais</h3>
+                    <ul class="requirements-list">
+                        <li>Jogo multijogador assimétrico (4vs1)</li>
+                        <li>Diversos assassinos e sobreviventes para escolher</li>
+                        <li>Atualizações regulares com novo conteúdo</li>
+                        <li>Modo competitivo com ranking</li>
+                        <li>Eventos sazonais especiais</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section class="game-details">
             <h2 class="section-title">Gêneros de Jogos</h2>
-            <div class="category-grid">
-                <div class="category-card">
-                    <div class="category-icon">🧟</div>
-                    <div class="category-info">
-                        <h3>Terror</h3>
-                        <p>Terror, Sobrevivência, Suspense, Medo, Horror, Assustador, Sobrenatural, Tensão, Zumbi</p>
-                    </div>
-                </div>
-                <div class="category-card">
-                    <div class="category-icon">🔫</div>
-                    <div class="category-info">
-                        <h3>Tiro</h3>
-                        <p>FPS (First-Person Shooter), TPS (Third-Person Shooter), Combate, Ação, Guerra, Armas, Estratégia, Preciso.</p>
-                    </div>
-                </div>
-                <div class="category-card">
-                    <div class="category-icon">🏎️</div>
-                    <div class="category-info">
-                        <h3>Corrida</h3>
-                        <p>Velocidade, Simulação, Arcade, Carro, Moto, Circuito, Piloto, Competição, Adrenalina.</p>
-                    </div>
-                </div>
-                <div class="category-card">
-                    <div class="category-icon">🧙</div>
-                    <div class="category-info">
-                        <h3>Aventura</h3>
-                        <p> Exploração, Narrativa, Quebra-cabeça, História, RPG, Mundo Aberto, Ficção, Jornada.</p>
-                    </div>
-                </div>
+            <div class="genres">
+                <span class="genre-tag">Terror</span>
+                <span class="genre-tag">Sobrevivência</span>
+                <span class="genre-tag">Suspense</span>
+                <span class="genre-tag">Horror</span>
+                <span class="genre-tag">Assustador</span>
+                <span class="genre-tag">Sobrenatural</span>
+                <span class="genre-tag">Tensão</span>
+                <span class="genre-tag">Zumbi</span>
             </div>
-        </div>
-    </section>
-
-    <!-- Jogos em destaque -->
-    <section class="featured-products">
-        <div class="container">
-            <h2 class="section-title">Jogos em Destaque</h2>
-            <div class="products-grid">
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="scr/assets/icone_terror.png" alt="Dead By Daylight"/>
-                    </div>
-                    <div class="product-info">
-                        <h3>Dead By Daylight</h3>
-                        <p class="product-price">R$ 19,99</p>
-                        <p class="product-description">Requisitos Mínimos
-                                Sistema Operacional: Windows® 10/11 64 bits
-                                Processador: Intel® Core™ i3-4170 ou equivalente
-                                Memória: 8 GB de RAM
-                                Placa de vídeo: Placa gráfica compatível com DirectX 11, como a GeForce® GTX 460 1GB ou superior
-                                DirectX: Versão 11
-                                Armazenamento: 50 GB de espaço disponível</p>
-                        <a href="#" class="btn">Comprar</a>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="scr/assets/icone_tiro.png" alt="Call of Duty Modern Warfare II"/>
-                    </div>
-                    <div class="product-info">
-                        <h3>Call of Duty Modern Warfare® II</h3>
-                        <p class="product-price">R$ 319,00</p>
-                        <p class="product-description">Requer um processador e sistema operacional de 64 bits
-                        SO: Windows® 10 64 Bit (atualização mais recente)
-                        Processador: Intel® Core™ i3-6100 / Core™ i5-2500K ou AMD Ryzen™ 3 1200
-                        Memória: 8 GB de RAM
-                        Placa de vídeo: NVIDIA® GeForce® GTX 960 ou AMD Radeon™ RX 470 - Sistema compatível com DirectX 12.0
-                        DirectX: Versão 12
-                        Rede: Conexão de internet banda larga
-                        Armazenamento: 125 GB de espaço disponível</p>
-                        <a href="#" class="btn">Comprar</a>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="scr/assets/icone_corrida.png" alt="Need For Speed Payback"/>
-                    </div>
-                    <div class="product-info">
-                        <h3>Need For Speed Payback</h3>
-                        <p class="product-price">R$ 7,79</p>
-                        <p class="product-description">
-                            Requisitos Mínimos
-                            Sistema Operacional: Windows® 7 64 bits ou superior
-                            Processador: Intel® i3 6300 @ 3,8 GHz ou AMD® FX 8150 @ 3.6GHz com 4 threads de hardware
-                            Memória: 6 GB de RAM
-                            Placa de vídeo: NVIDIA® GeForce® GTX 750 Ti ou AMD® Radeon™ HD 7850 ou GPU compatível com DX11 e 2GB de memória
-                            DirectX: Versão 11, placa de vídeo compatível
-                            Armazenamento: 30 GB de espaço disponível</p>
-                        <a href="#" class="btn">Comprar</a>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="scr/assets/icone_aventura.png" alt="The Elder Scrolls Online"/>
-                    </div>
-                    <div class="product-info">
-                        <h3>The Elder Scrolls Online</h3>
-                        <p class="product-price">R$ 61,50</p>
-                        <p class="product-description">Requisitos Mínimos
-                        Sistema Operacional: Windows® 10 64 bits
-                        Processador: Intel® Core™ i5 2300 ou AMD® FX4350
-                        Memória: 4 GB de RAM
-                        Placa de vídeo: Placa de vídeo compatível com DirectX 11.0 e 1GB de RAM (NVIDIA® GeForce® 560 ou AMD® Radeon™ 6870)
-                        DirectX: Versão 11
-                        Rede: Conexão de internet banda larga
-                        Armazenamento: 150 GB de espaço disponível</p>
-                        <a href="#" class="btn">Comprar</a>
-                    </div>
-                </div>
+            
+            <h2 class="section-title">Requisitos do Sistema</h2>
+            <div class="requirements">
+                <h3>Requisitos Mínimos</h3>
+                <ul class="requirements-list">
+                    <li><strong>Sistema Operacional:</strong> Windows® 10/11 64 bits</li>
+                    <li><strong>Processador:</strong> Intel® Core™ i3-4170 ou equivalente</li>
+                    <li><strong>Memória:</strong> 8 GB de RAM</li>
+                    <li><strong>Placa de vídeo:</strong> Placa gráfica compatível com DirectX 11, como a GeForce® GTX 460 1GB ou superior</li>
+                    <li><strong>DirectX:</strong> Versão 11</li>
+                    <li><strong>Armazenamento:</strong> 50 GB de espaço disponível</li>
+                </ul>
             </div>
-        </div>
-    </section>
-
-    <!-- Newsletter -->
-    <section class="newsletter">
-        <div class="container">
-            <h2>Fique por dentro das novidades</h2>
-            <p>Cadastre-se para receber promoções exclusivas e novidades em primeira mão</p>
-            <form class="newsletter-form">
-                <input type="email" placeholder="Seu melhor e-mail" required>
-                <button type="submit">Inscrever</button>
-            </form>
-        </div>
-    </section>
+        </section>
+    </div>
 
     <!-- Rodapé -->
     <footer>
@@ -643,7 +469,7 @@
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h3>Gêneros</h3>
+                    <h3>Categorias</h3>
                     <ul>
                         <li><a href="#">Terror</a></li>
                         <li><a href="#">Tiro</a></li>
@@ -687,7 +513,7 @@
         });
 
         // Adicionar classe de destaque ao menu conforme a rolagem
-        window.addEventListener('scroll', function() {
+        window.addEventListener('scroll', function () {
             const header = document.querySelector('header');
             if (window.scrollY > 50) {
                 header.style.background = 'rgba(15, 15, 27, 0.98)';
@@ -696,17 +522,10 @@
             }
         });
 
-        // Validação do formulário de newsletter
-        document.querySelector('.newsletter-form').addEventListener('submit', function(e) {
+        // Simulação de adição ao carrinho
+        document.querySelector('.btn-large').addEventListener('click', function (e) {
             e.preventDefault();
-            const email = this.querySelector('input[type="email"]').value;
-            
-            if (email && email.includes('@')) {
-                alert('Obrigado por se inscrever em nossa newsletter!');
-                this.reset();
-            } else {
-                alert('Por favor, insira um e-mail válido.');
-            }
+            alert('Dead By Daylight foi adicionado ao seu carrinho!');
         });
     </script>
 </body>
