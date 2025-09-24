@@ -11,6 +11,8 @@
     <asp:DropDownList ID="ddlDesenvolvedora" runat="server" nome=""></asp:DropDownList>
     <asp:DropDownList ID="ddlPublicadora" runat="server" nome=""></asp:DropDownList>
     <asp:DropDownList ID="ddlClassificacao" runat="server" nome=""></asp:DropDownList>
+    <asp:DropDownList ID="ddlGenero" runat="server" nome=""></asp:DropDownList>
+    <asp:DropDownList ID="ddlPlataforma" runat="server" nome=""></asp:DropDownList>
     <asp:Button ID="btnConfirmaJogo" runat="server" Text="Confirmar Cadastro" OnClick="btnConfirmaJogo_Click" />
     <asp:Label ID="lblValidaJogo" runat="server" Text=""></asp:Label>
     

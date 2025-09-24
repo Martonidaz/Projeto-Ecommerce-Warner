@@ -30,8 +30,10 @@ public partial class cadastro_jogos : System.Web.UI.Page
             int idDesenvolvedor = Convert.ToInt32(ddlDesenvolvedora.SelectedValue);
             int idPublicadora = Convert.ToInt32(ddlPublicadora.SelectedValue);
             int idClassificacao = Convert.ToInt32(ddlClassificacao.SelectedValue);
+            int idGenero = Convert.ToInt32(ddlGenero.SelectedValue);
+            int idPlataforma = Convert.ToInt32(ddlPlataforma.SelectedValue);
 
-            string sqlJogos = @"INSERT INTO Jogos (nome, descricao, data_lancamento, preco, tamanho, id_desenvolvedor, id_publicadora, id_classificacao) OUTPUT INSERTED.id_jogo VALUES (@nome, @descricao, @data_lancamento, @preco, @tamanho, @id_desenvolvedor, @id_publicadora, @id_classificacao)";
+            string sqlJogos = @"INSERT INTO Jogos (nome, descricao, data_lancamento, preco, tamanho, id_desenvolvedor, id_publicadora, id_classificacao) OUTPUT INSERTED.id_jogo VALUES (@nome, @descricao, @data_lancamento, @preco, @tamanho, @id_desenvolvedor, @id_publicadora, @id_classificacao, @id_genero, @id_plataforma)";
 
             SqlCommand cmdJogos = new SqlCommand(sqlJogos, con);
 
@@ -43,6 +45,9 @@ public partial class cadastro_jogos : System.Web.UI.Page
             cmdJogos.Parameters.AddWithValue("@id_desenvolvedor", idDesenvolvedor);
             cmdJogos.Parameters.AddWithValue("@id_publicadora", idPublicadora);
             cmdJogos.Parameters.AddWithValue("@id_classificacao", idClassificacao);
+            cmdJogos.Parameters.AddWithValue("@id_genero", idGenero);
+            cmdJogos.Parameters.AddWithValue("@id_plataforma", idPlataforma);
+
 
             con.Open();
             cmdJogos.ExecuteNonQuery();
@@ -85,6 +90,24 @@ public partial class cadastro_jogos : System.Web.UI.Page
             ddlClassificacao.DataValueField = "id_classificacao";
             ddlClassificacao.DataBind();
             drClass.Close();
+
+            //Genero
+            SqlCommand cmdGen = new SqlCommand("SELECT id_genero, nome_genero FROM Genero", con);
+            SqlDataReader drGen = cmdGen.ExecuteReader();
+            ddlGenero.DataSource = drGen;
+            ddlGenero.DataTextField = "nome_genero";
+            ddlGenero.DataValueField = "id_genero";
+            ddlGenero.DataBind();
+            drGen.Close();
+
+            //Plataforma
+            SqlCommand cmdPlat = new SqlCommand("SELECT id_plataforma, nome_plataforma FROM Plataforma", con);
+            SqlDataReader drPlat = cmdPlat.ExecuteReader();
+            ddlPlataforma.DataSource = drPlat;
+            ddlPlataforma.DataTextField = "nome_plataforma";
+            ddlPlataforma.DataValueField = "id_plataforma";
+            ddlPlataforma.DataBind();
+            drPlat.Close();
         }
     }
 }
