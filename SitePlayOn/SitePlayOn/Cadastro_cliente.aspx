@@ -48,23 +48,27 @@
             padding: 15px 0;
         }
         
+        
         .logo {
             display: flex;
             align-items: center;
             gap: 10px;
+            height: 40px; 
         }
-        
+
         .logo-img {
-            height: 40px;
+            height: 200px; 
             width: auto;
+            object-fit: contain; 
         }
-        
+
         .logo h1 {
             font-size: 24px;
             font-weight: 700;
             background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            line-height: 1; 
         }
         
         nav ul {
@@ -361,7 +365,6 @@
         <div class="container header-content">
             <div class="logo">
                 <img src="../scr/assets/playonlogo.png" class="logo-img"/>
-                <h1>Play On</h1>
             </div>
             <nav>
                 <ul>

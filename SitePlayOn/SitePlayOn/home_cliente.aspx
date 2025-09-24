@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="Inicio" Language="C#" MasterPageFile="~/MasterPage_Cliente.master" AutoEventWireup="true" CodeFile="Home_cliente.aspx.cs" Inherits="Inicio" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server"> 
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Play On - Sua Loja de Jogos</title>
@@ -12,19 +12,19 @@
             box-sizing: border-box;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
-        
+
         body {
             background-color: #0f0f1b;
             color: #ffffff;
             line-height: 1.6;
         }
-        
+
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 20px;
         }
-        
+
         /* Cabeçalho */
         header {
             background-color: rgba(15, 15, 27, 0.95);
@@ -35,40 +35,43 @@
             z-index: 1000;
             border-bottom: 1px solid #2a2a3c;
         }
-        
+
         .header-content {
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 15px 0;
         }
-        
+
         .logo {
             display: flex;
             align-items: center;
             gap: 10px;
+            height: 40px; 
         }
-        
+
         .logo-img {
-            height: 40px;
+            height: 200px; 
             width: auto;
+            object-fit: contain; 
         }
-        
+
         .logo h1 {
             font-size: 24px;
             font-weight: 700;
             background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            line-height: 1; 
         }
-        
+
         nav ul {
             display: flex;
             list-style: none;
             gap: 30px;
             align-items: center;
         }
-        
+
         nav a {
             color: #b8b8d0;
             text-decoration: none;
@@ -77,26 +80,26 @@
             position: relative;
             padding: 5px 0;
         }
-        
-        nav a:hover {
-            color: #ffffff;
-        }
-        
-        nav a::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 0;
-            height: 2px;
-            background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
-            transition: width 0.3s;
-        }
-        
-        nav a:hover::after {
-            width: 100%;
-        }
-        
+
+            nav a:hover {
+                color: #ffffff;
+            }
+
+            nav a::after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 0;
+                height: 2px;
+                background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+                transition: width 0.3s;
+            }
+
+            nav a:hover::after {
+                width: 100%;
+            }
+
         /* Botões personalizados */
         #btnLogout {
             background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
@@ -109,29 +112,28 @@
             transition: all 0.3s;
             font-size: 0.9rem;
         }
-        
-        #btnLogout:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(106, 17, 203, 0.4);
-        }
-        
+
+            #btnLogout:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 5px 15px rgba(106, 17, 203, 0.4);
+            }
+
         /* Banner principal */
         .hero-banner {
-            background: linear-gradient(135deg, rgba(106, 17, 203, 0.8), rgba(37, 117, 252, 0.8)),
-                       url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background: linear-gradient(135deg, rgba(106, 17, 203, 0.8), rgba(37, 117, 252, 0.8)), url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
             background-size: cover;
             background-position: center;
             padding: 180px 0 100px;
             text-align: center;
             margin-top: 70px;
         }
-        
+
         .hero-content h2 {
             font-size: 3rem;
             margin-bottom: 20px;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
-        
+
         .hero-content p {
             font-size: 1.2rem;
             margin-bottom: 30px;
@@ -140,7 +142,7 @@
             margin-left: auto;
             margin-right: auto;
         }
-        
+
         .btn {
             display: inline-block;
             background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
@@ -154,17 +156,17 @@
             cursor: pointer;
             font-size: 1.1rem;
         }
-        
-        .btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(106, 17, 203, 0.4);
-        }
-        
+
+            .btn:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 5px 15px rgba(106, 17, 203, 0.4);
+            }
+
         /* Categorias */
         .categories {
             padding: 80px 0;
         }
-        
+
         .section-title {
             font-size: 2.5rem;
             text-align: center;
@@ -174,13 +176,13 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
-        
+
         .category-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 30px;
         }
-        
+
         .category-card {
             background: rgba(42, 42, 60, 0.6);
             border-radius: 10px;
@@ -189,40 +191,40 @@
             border: 1px solid #3a3a52;
             transition: transform 0.3s, box-shadow 0.3s;
         }
-        
-        .category-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(106, 17, 203, 0.3);
-        }
-        
+
+            .category-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 10px 25px rgba(106, 17, 203, 0.3);
+            }
+
         .category-icon {
             font-size: 3rem;
             margin-bottom: 15px;
         }
-        
+
         .category-info h3 {
             font-size: 1.3rem;
             margin-bottom: 10px;
             color: #ffffff;
         }
-        
+
         .category-info p {
             color: #b8b8d0;
             font-size: 0.9rem;
         }
-        
+
         /* Produtos em destaque */
         .featured-products {
             padding: 80px 0;
             background: rgba(10, 10, 20, 0.5);
         }
-        
+
         .products-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 30px;
         }
-        
+
         .product-card {
             background: rgba(42, 42, 60, 0.6);
             border-radius: 10px;
@@ -230,12 +232,12 @@
             border: 1px solid #3a3a52;
             transition: transform 0.3s, box-shadow 0.3s;
         }
-        
-        .product-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(106, 17, 203, 0.3);
-        }
-        
+
+            .product-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 10px 25px rgba(106, 17, 203, 0.3);
+            }
+
         .product-image {
             height: 200px;
             background: linear-gradient(135deg, #6a11cb, #2575fc);
@@ -245,44 +247,44 @@
             font-size: 1.5rem;
             font-weight: 600;
         }
-        
+
         .product-info {
             padding: 20px;
         }
-        
-        .product-info h3 {
-            font-size: 1.2rem;
-            margin-bottom: 10px;
-            color: #ffffff;
-        }
-        
+
+            .product-info h3 {
+                font-size: 1.2rem;
+                margin-bottom: 10px;
+                color: #ffffff;
+            }
+
         .product-price {
             font-size: 1.5rem;
             font-weight: 700;
             color: #6a11cb;
             margin-bottom: 10px;
         }
-        
+
         .product-description {
             color: #b8b8d0;
             font-size: 0.9rem;
             margin-bottom: 15px;
             line-height: 1.5;
         }
-        
+
         /* Rodapé */
         footer {
             background: #0a0a14;
             padding: 60px 0 20px;
         }
-        
+
         .footer-content {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 40px;
             margin-bottom: 40px;
         }
-        
+
         .footer-section h3 {
             font-size: 1.3rem;
             margin-bottom: 20px;
@@ -290,60 +292,60 @@
             position: relative;
             padding-bottom: 10px;
         }
-        
-        .footer-section h3::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 40px;
-            height: 2px;
-            background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
-        }
-        
+
+            .footer-section h3::after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 40px;
+                height: 2px;
+                background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+            }
+
         .footer-section p, .footer-section li {
             color: #b8b8d0;
             margin-bottom: 10px;
         }
-        
+
         .footer-section ul {
             list-style: none;
         }
-        
+
         .footer-section a {
             color: #b8b8d0;
             text-decoration: none;
             transition: color 0.3s;
         }
-        
-        .footer-section a:hover {
-            color: #6a11cb;
-        }
-        
+
+            .footer-section a:hover {
+                color: #6a11cb;
+            }
+
         .social-icons {
             display: flex;
             gap: 15px;
             margin-top: 15px;
         }
-        
-        .social-icons a {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 40px;
-            height: 40px;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 50%;
-            transition: all 0.3s;
-            font-size: 1.2rem;
-            text-decoration: none;
-        }
-        
-        .social-icons a:hover {
-            background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
-            transform: translateY(-3px);
-        }
-        
+
+            .social-icons a {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                width: 40px;
+                height: 40px;
+                background: rgba(255, 255, 255, 0.1);
+                border-radius: 50%;
+                transition: all 0.3s;
+                font-size: 1.2rem;
+                text-decoration: none;
+            }
+
+                .social-icons a:hover {
+                    background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+                    transform: translateY(-3px);
+                }
+
         .footer-bottom {
             text-align: center;
             padding-top: 20px;
@@ -351,48 +353,48 @@
             color: #b8b8d0;
             font-size: 0.9rem;
         }
-        
+
         /* Responsividade */
         @media (max-width: 768px) {
             .header-content {
                 flex-direction: column;
                 gap: 15px;
             }
-            
+
             nav ul {
                 gap: 15px;
                 flex-wrap: wrap;
                 justify-content: center;
             }
-            
+
             .hero-content h2 {
                 font-size: 2rem;
             }
-            
+
             .hero-banner {
                 padding: 120px 0 80px;
                 margin-top: 120px;
             }
-            
+
             .section-title {
                 font-size: 2rem;
             }
         }
-        
+
         @media (max-width: 480px) {
             .hero-content h2 {
                 font-size: 1.8rem;
             }
-            
+
             .section-title {
                 font-size: 1.8rem;
             }
-            
+
             .category-grid,
             .products-grid {
                 grid-template-columns: 1fr;
             }
-            
+
             .footer-content {
                 grid-template-columns: 1fr;
             }
@@ -410,23 +412,24 @@
         }
     </style>
 </asp:Content>
-    
+
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <header>
         <div class="container header-content">
             <div class="logo">
                 <img src="../scr/assets/playonlogo.png" alt="Play On Logo" class="logo-img">
-                <h1>Play On</h1>
             </div>
             <nav>
                 <ul>
-                    <li><a href="Home_cliente.aspx" style="color: #ffffff;">Página Inicial</a></li>                    
+                    <li><a href="Home_cliente.aspx" style="color: #ffffff;">Página Inicial</a></li>
                     <li><a href="Produtos.aspx">Produtos</a></li>
-                    <li><a href="Categoria.aspx">Categoria</a></li>                                               
-                    <li><a href="Categoria.aspx">Categoria</a></li>       
-                    <li><a href="Cadastro_cliente.aspx">Cadastrar</a></li>           
-                    <li><asp:Button ID="btnLogout" OnClick="btnLogout_click" runat="server" Text="Sair" CssClass="btn-logout" /></li>
-                    <li><asp:Label ID="lblWelcome" runat="server" Text=""></asp:Label></li>
+                    <li><a href="Categoria.aspx">Categoria</a></li>
+                    <li><a href="Categoria.aspx">Categoria</a></li>
+                    <li><a href="Cadastro_cliente.aspx">Cadastrar</a></li>
+                    <li>
+                        <asp:Button ID="btnLogout" OnClick="btnLogout_click" runat="server" Text="Sair" CssClass="btn-logout" /></li>
+                    <li>
+                        <asp:Label ID="lblWelcome" runat="server" Text=""></asp:Label></li>
 
                 </ul>
             </nav>
@@ -540,7 +543,7 @@
         });
 
         // Adicionar classe de destaque ao menu conforme a rolagem
-        window.addEventListener('scroll', function() {
+        window.addEventListener('scroll', function () {
             const header = document.querySelector('header');
             if (window.scrollY > 50) {
                 header.style.background = 'rgba(15, 15, 27, 0.98)';
@@ -551,7 +554,7 @@
 
         // Simulação de adição ao carrinho
         document.querySelectorAll('.product-card .btn').forEach(button => {
-            button.addEventListener('click', function(e) {
+            button.addEventListener('click', function (e) {
                 e.preventDefault();
                 const productName = this.closest('.product-card').querySelector('h3').textContent;
                 alert(productName + ' foi adicionado ao seu carrinho!');
