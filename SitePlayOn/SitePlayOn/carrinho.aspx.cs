@@ -11,4 +11,9 @@ public partial class carrinho : System.Web.UI.Page
     {
 
     }
+
+    protected void btnFinalizarVenda_Click(object sender, EventArgs e)
+    {
+
+    }
 }
