@@ -83,9 +83,9 @@
                 <div class="product-card">
                     <div class="product-image">
                         <img src="scr/assets/icone_terror.png" />
-                        <div>Dead By Daylight</div>
                     </div>
                     <div class="product-info">
+                        <h3>Dead By Daylight</h3>
                         <p class="product-price">R$ 19,99</p>
                         <p class="product-description">Requisitos Mínimos
                                 Sistema Operacional: Windows® 10/11 64 bits
@@ -100,7 +100,6 @@
                 <div class="product-card">
                     <div class="product-image">
                         <img src="scr/assets/icone_tiro.png" />
-                        <div>Call Of Duty Modern Warfare 2</div>
                     </div>
                     <div class="product-info">
                         <h3>Call of Duty Modern Warfare® II</h3>
@@ -119,11 +118,10 @@
                 <div class="product-card">
                     <div class="product-image">
                         <img src="scr/assets/icone_corrida.png" />
-                        <div>Need For Speed Payback</div>
                     </div>
                     <div class="product-info">
                         <h3>Need For Speed Payback</h3>
-                        <p class="product-price">R$ 7,790</p>
+                        <p class="product-price">R$ 7,79</p>
                         <p class="product-description">
                             Requisitos Mínimos
                             Sistema Operacional: Windows® 7 64 bits ou superior
@@ -138,7 +136,6 @@
                 <div class="product-card">
                     <div class="product-image">
                         <img src="scr/assets/icone_aventura.png" />
-                        <div>The Elder Scrolls Online</div>
                     </div>
                     <div class="product-info">
                         <h3>The Elder Scrolls Online</h3>
