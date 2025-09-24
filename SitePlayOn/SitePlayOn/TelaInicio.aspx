@@ -82,11 +82,10 @@
             <div class="products-grid">
                 <div class="product-card">
                     <div class="product-image">
-                        <img src="" class="logo-img"/>
+                        <img src="scr/assets/icone_terror.png" />
                         <div>Dead By Daylight</div>
                     </div>
                     <div class="product-info">
-                        <h3>Dead by Daylight é um jogo multijogador de ação e sobrevivência onde um Assassino caça quatro Sobreviventes em um mundo aterrorizante num jogo mortal de gato e rato</h3>
                         <p class="product-price">R$ 19,99</p>
                         <p class="product-description">Requisitos Mínimos
                                 Sistema Operacional: Windows® 10/11 64 bits
@@ -100,13 +99,11 @@
                 </div>
                 <div class="product-card">
                     <div class="product-image">
+                        <img src="scr/assets/icone_tiro.png" />
                         <div>Call Of Duty Modern Warfare 2</div>
                     </div>
                     <div class="product-info">
-                        <h3>O Call of Duty®: Modern Warfare® II coloca os jogadores dentro de um
-                            conflito global sem precedentes que conta com o retorno dos Operadores icônicos da Força-Tarefa 141.
-                            De pequenas infiltrações táticas até missões altamente confidenciais, jogadores vão mobilizar junto de amigos em uma experiência verdadeiramente imersiva.
-                            O Modern Warfare® II inclui uma campanha global para um jogador, combate Multijogador imersivo e uma experiência de Operações Especiais cooperativa com narrativa.</h3>
+                        <h3>Call of Duty Modern Warfare® II</h3>
                         <p class="product-price">R$  319,00</p>
                         <p class="product-description">Requer um processador e sistema operacional de 64 bits
                         SO: Windows® 10 64 Bit (atualização mais recente)
@@ -121,10 +118,11 @@
                 </div>
                 <div class="product-card">
                     <div class="product-image">
+                        <img src="scr/assets/icone_corrida.png" />
                         <div>Need For Speed Payback</div>
                     </div>
                     <div class="product-info">
-                        <h3>Need for Speed™, uma das franquias de jogos mais vendidas do mundo, retorna com sede de revanche no novo sucesso de ação sobre quatro rodas, Need for Speed Payback."</h3>
+                        <h3>Need For Speed Payback</h3>
                         <p class="product-price">R$ 7,790</p>
                         <p class="product-description">
                             Requisitos Mínimos
@@ -139,10 +137,11 @@
                 </div>
                 <div class="product-card">
                     <div class="product-image">
+                        <img src="scr/assets/icone_aventura.png" />
                         <div>The Elder Scrolls Online</div>
                     </div>
                     <div class="product-info">
-                        <h3>Toda lenda começa em algum lugar e, em The Elder Scrolls Online, ela começa com você. Junte-se a milhões de jogadores em um RPG online de fantasia ambientado em um mundo vasto e dinâmico de Elder Scrolls.</h3>
+                        <h3>The Elder Scrolls Online</h3>
                         <p class="product-price">R$ 61,50</p>
                         <p class="product-description">Requisitos Mínimos
                         Sistema Operacional: Windows® 10 64 bits
