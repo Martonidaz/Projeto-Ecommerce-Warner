@@ -6,7 +6,8 @@
     <div class="menu-admin">
         <asp:Button ID="btnCadastroUsuario" runat="server" Text="Cadastrar Usuário" OnClick="btnCadastroUsuario_Click" />
         <asp:Button ID="btnCadastrarJogo" runat="server" Text="Cadastrar Jogo" OnClick="btnCadastrarJogo_Click" />
-        <asp:Button ID="btnCadastrarPlataformas" runat="server" Text="Cadastrar Plataformas" />   
+        <asp:Button ID="btnCadastrarPlataformas" runat="server" Text="Cadastrar Plataformas" />
+        <asp:Button ID="btnTelaCliente" runat="server" Text="Tela Cliente" OnClick="btnTelaCliente_Click" />
 
         <asp:Button ID="btnVisualizarUsuarios" runat="server" Text="Visualizar Usuários" OnClick="btnVisualizarUsuarios_Click" />
         <asp:Button ID="btnVisualizarJogos" runat="server" Text="Visualizar Jogos Cadastrados" />
