@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|c:\\users\\breno\\onedrive\\documentos\\estudo\\projeto-ecommerce-warner\\siteplayon\\siteplayon\\home_cliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|solutionrelative:siteplayon\\home_cliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|c:\\users\\breno\\onedrive\\documentos\\estudo\\projeto-ecommerce-warner\\siteplayon\\siteplayon\\produtos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|solutionrelative:siteplayon\\produtos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|c:\\users\\breno\\onedrive\\documentos\\estudo\\projeto-ecommerce-warner\\siteplayon\\siteplayon\\home_admin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|solutionrelative:siteplayon\\home_admin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\siteplayon\\home_cliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{665149DF-C3C9-00B6-6548-02236494C84E}|C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn|solutionrelative:siteplayon\\home_cliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,6 +43,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Produtos.aspx",
+              "DocumentMoniker": "C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\Produtos.aspx",
+              "RelativeDocumentMoniker": "SitePlayOn\\Produtos.aspx",
+              "ToolTip": "C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\Produtos.aspx",
+              "RelativeToolTip": "SitePlayOn\\Produtos.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-24T04:14:39.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "home_cliente.aspx",
               "DocumentMoniker": "C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\home_cliente.aspx",
               "RelativeDocumentMoniker": "SitePlayOn\\home_cliente.aspx",
@@ -50,20 +63,7 @@
               "RelativeToolTip": "SitePlayOn\\home_cliente.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-24T03:43:26.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "home_admin.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\home_admin.aspx.cs",
-              "RelativeDocumentMoniker": "SitePlayOn\\home_admin.aspx.cs",
-              "ToolTip": "C:\\Users\\Breno\\OneDrive\\Documentos\\Estudo\\Projeto-Ecommerce-Warner\\SitePlayOn\\SitePlayOn\\home_admin.aspx.cs",
-              "RelativeToolTip": "SitePlayOn\\home_admin.aspx.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACgAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T03:40:42.634Z",
+              "WhenOpened": "2025-09-24T03:49:19.812Z",
               "EditorCaption": ""
             }
           ]
