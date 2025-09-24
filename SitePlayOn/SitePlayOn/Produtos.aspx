@@ -1,5 +1,12 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Produtos.aspx.cs" Inherits="Produtos" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage_Cliente.master" AutoEventWireup="true" CodeFile="Produtos.aspx.cs" Inherits="Produtos" %>
 
+<<<<<<< HEAD
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+</asp:Content>
+
+=======
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head runat="server">
@@ -238,3 +245,4 @@
     </form>
 </body>
 </html>
+>>>>>>> 43c39624d4030dc8e8d71ee68fce4457df6f3dc9
