@@ -38,6 +38,6 @@ public partial class Home_admin : System.Web.UI.Page
 
     protected void btnTelaCliente_Click(object sender, EventArgs e)
     {
-        Response.Redirect("/Home_cliente.apsx");
+        Response.Redirect("Home_cliente.aspx");
     }
 }

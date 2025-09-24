@@ -19,7 +19,8 @@
                 <ul>
                     <li><a href="Home_cliente.aspx">Página Inicial</a></li>                    
                     <li><a href="Produtos.aspx">Produtos</a></li>
-                    <li><a href="Categoria.aspx">Categoria</a></li>             
+                    <li><a href="Categoria.aspx">Categoria</a></li>       
+                    <li><a href="Cadastro_cliente.aspx">Cadastrar</a></li> 
                     <li><a> <asp:Button ID="btnLogout" OnClick="btnLogout_click" runat="server" Text="Sair" /> </a></li>                  
                     <li><a> <asp:Label ID="lblWelcome" runat="server" Text=""></asp:Label>
                     </li>
