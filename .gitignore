@@ -30,3 +30,5 @@ App_Data/
 packages/
 *.nupkg
 .nuget/
+SitePlayOn/SitePlayOn/App_Data/BancoLoja.mdf
+SitePlayOn/SitePlayOn/App_Data/BancoLoja_log.ldf
