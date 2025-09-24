@@ -17,7 +17,7 @@ public partial class Home_admin : System.Web.UI.Page
 
     protected void btnCadastroUsuario_Click(object sender, EventArgs e)
     {
-
+        Response.Redirect("~/cadastro_cliente.aspx");
     }
 
     protected void btnVisualizarUsuarios_Click(object sender, EventArgs e)

@@ -392,7 +392,7 @@
     <div class="container">
         <section class="game-detail">
             <div class="game-image">
-                <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Dead By Daylight">
+                <img src="https://cdn1.epicgames.com/spt-assets/2b2299be8ae84d679d4dc57c55af1510/dead-by-daylight-1hg3x.jpg" alt="Dead By Daylight">
             </div>
             
             <div class="game-info">
