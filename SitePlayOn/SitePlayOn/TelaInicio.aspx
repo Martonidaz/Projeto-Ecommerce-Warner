@@ -75,52 +75,82 @@
         </div>
     </section>
 
-    <!-- Produtos em destaque -->
+    <!-- Jogos em destaque -->
     <section class="featured-products">
         <div class="container">
             <h2 class="section-title">Jogos em Destaque</h2>
             <div class="products-grid">
                 <div class="product-card">
                     <div class="product-image">
-                        <div>Notebook Gamer</div>
+                        <div>Dead By Daylight</div>
                     </div>
                     <div class="product-info">
-                        <h3>Notebook Gamer Avançado</h3>
-                        <p class="product-price">R$ 4.599,00</p>
-                        <p class="product-description">Intel i7, 16GB RAM, GTX 1660Ti, SSD 512GB</p>
+                        <h3>Dead by Daylight é um jogo multijogador de ação e sobrevivência onde um Assassino caça quatro Sobreviventes em um mundo aterrorizante num jogo mortal de gato e rato</h3>
+                        <p class="product-price">R$ 19,99</p>
+                        <p class="product-description">Requisitos Mínimos
+                                Sistema Operacional: Windows® 10/11 64 bits
+                                Processador: Intel® Core™ i3-4170 ou equivalente
+                                Memória: 8 GB de RAM
+                                Placa de vídeo: Placa gráfica compatível com DirectX 11, como a GeForce® GTX 460 1GB ou superior
+                                DirectX: Versão 11
+                                Armazenamento: 50 GB de espaço disponível</p>
                         <a href="#" class="btn">Comprar</a>
                     </div>
                 </div>
                 <div class="product-card">
                     <div class="product-image">
-                        <div>Teclado Mecânico</div>
+                        <div>Call Of Duty Modern Warfare 2</div>
                     </div>
                     <div class="product-info">
-                        <h3>Teclado Mecânico RGB</h3>
-                        <p class="product-price">R$ 399,00</p>
-                        <p class="product-description">Switches Blue, iluminação RGB, ABNT2</p>
+                        <h3>O Call of Duty®: Modern Warfare® II coloca os jogadores dentro de um
+                            conflito global sem precedentes que conta com o retorno dos Operadores icônicos da Força-Tarefa 141.
+                            De pequenas infiltrações táticas até missões altamente confidenciais, jogadores vão mobilizar junto de amigos em uma experiência verdadeiramente imersiva.
+                            O Modern Warfare® II inclui uma campanha global para um jogador, combate Multijogador imersivo e uma experiência de Operações Especiais cooperativa com narrativa.</h3>
+                        <p class="product-price">R$  319,00</p>
+                        <p class="product-description">Requer um processador e sistema operacional de 64 bits
+                        SO: Windows® 10 64 Bit (atualização mais recente)
+                        Processador: Intel® Core™ i3-6100 / Core™ i5-2500K ou AMD Ryzen™ 3 1200
+                        Memória: 8 GB de RAM
+                        Placa de vídeo: NVIDIA® GeForce® GTX 960 ou AMD Radeon™ RX 470 - Sistema compatível com DirectX 12.0
+                        DirectX: Versão 12
+                        Rede: Conexão de internet banda larga
+                        Armazenamento: 125 GB de espaço disponível</p>
                         <a href="#" class="btn">Comprar</a>
                     </div>
                 </div>
                 <div class="product-card">
                     <div class="product-image">
-                        <div>Monitor 4K</div>
+                        <div>Need For Speed Payback</div>
                     </div>
                     <div class="product-info">
-                        <h3>Monitor UltraWide 34"</h3>
-                        <p class="product-price">R$ 2.899,00</p>
-                        <p class="product-description">Resolução 3440x1440, 144Hz, Curvo</p>
+                        <h3>Need for Speed™, uma das franquias de jogos mais vendidas do mundo, retorna com sede de revanche no novo sucesso de ação sobre quatro rodas, Need for Speed Payback."</h3>
+                        <p class="product-price">R$ 7,790</p>
+                        <p class="product-description">
+                            Requisitos Mínimos
+                            Sistema Operacional: Windows® 7 64 bits ou superior
+                            Processador: Intel® i3 6300 @ 3,8 GHz ou AMD® FX 8150 @ 3.6GHz com 4 threads de hardware
+                            Memória: 6 GB de RAM
+                            Placa de vídeo: NVIDIA® GeForce® GTX 750 Ti ou AMD® Radeon™ HD 7850 ou GPU compatível com DX11 e 2GB de memória
+                            DirectX: Versão 11, placa de vídeo compatível
+                            Armazenamento: 30 GB de espaço disponível</p>
                         <a href="#" class="btn">Comprar</a>
                     </div>
                 </div>
                 <div class="product-card">
                     <div class="product-image">
-                        <div>Headset Gamer</div>
+                        <div>The Elder Scrolls Online</div>
                     </div>
                     <div class="product-info">
-                        <h3>Headset 7.1 Surround</h3>
-                        <p class="product-price">R$ 299,00</p>
-                        <p class="product-description">Áudio surround, microfone retrátil, RGB</p>
+                        <h3>Toda lenda começa em algum lugar e, em The Elder Scrolls Online, ela começa com você. Junte-se a milhões de jogadores em um RPG online de fantasia ambientado em um mundo vasto e dinâmico de Elder Scrolls.</h3>
+                        <p class="product-price">R$ 61,50</p>
+                        <p class="product-description">Requisitos Mínimos
+                        Sistema Operacional: Windows® 10 64 bits
+                        Processador: Intel® Core™ i5 2300 ou AMD® FX4350
+                        Memória: 4 GB de RAM
+                        Placa de vídeo: Placa de vídeo compatível com DirectX 11.0 e 1GB de RAM (NVIDIA® GeForce® 560 ou AMD® Radeon™ 6870)
+                        DirectX: Versão 11
+                        Rede: Conexão de internet banda larga
+                        Armazenamento: 150 GB de espaço disponíve</p>
                         <a href="#" class="btn">Comprar</a>
                     </div>
                 </div>
