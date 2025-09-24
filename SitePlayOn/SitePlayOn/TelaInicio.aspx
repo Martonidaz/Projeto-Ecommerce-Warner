@@ -32,9 +32,8 @@
     <!-- Banner principal -->
     <section class="hero-banner">
         <div class="container hero-content">
-            <h2>Tecnologia de Ponta a Preços Acessíveis</h2>
-            <p>Encontre os melhores jogos com garantia e entrega rápida</p>
-            <a href="#" class="btn">Ver Ofertas</a>
+            <h2>Jogos a Preços Acessíveis</h2>
+            <p>Encontre os melhores títulos dos games com garantia e entrega rápida</p>
         </div>
     </section>
 
@@ -208,7 +207,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2023 Play On - Todos os direitos reservados</p>
+                <p>&copy; 2025 Play On - Todos os direitos reservados</p>
             </div>
         </div>
     </footer>
