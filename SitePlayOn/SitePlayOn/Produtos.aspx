@@ -205,29 +205,20 @@
         </header>
 
         <!-- Conteúdo principal -->
-        <main class="container">
-            <h2 class="section-title">Nossos Produtos</h2>
-
+        <main>
             <div class="products-grid">
-                <!-- Cards de exemplo. Substitua pelo conteúdo dinâmico/servidor -->
-                <div class="product-card">
-                    <img src="https://via.placeholder.com/250x150" alt="Produto 1" />
-                    <div class="product-name">Jogo 1</div>
-                    <div class="product-price">R$ 59,90</div>
-                    <a href="#" class="btn">Comprar</a>
-                </div>
-                <div class="product-card">
-                    <img src="https://via.placeholder.com/250x150" alt="Produto 2" />
-                    <div class="product-name">Jogo 2</div>
-                    <div class="product-price">R$ 79,90</div>
-                    <a href="#" class="btn">Comprar</a>
-                </div>
-                <div class="product-card">
-                    <img src="https://via.placeholder.com/250x150" alt="Produto 3" />
-                    <div class="product-name">Jogo 3</div>
-                    <div class="product-price">R$ 99,90</div>
-                    <a href="#" class="btn">Comprar</a>
-                </div>
+                <asp:Repeater ID="rptProdutos" runat="server">
+                    <ItemTemplate>
+                        <div class="product-card">
+                            <img src='Imagens/Produtos/<%# Eval("id_jogo") %>.jpg' 
+                                 alt='<%# Eval("Nome") %>'
+                                 onerror="this.src='Imagens/Produtos/padrao.jpg'" />
+                            <div class="product-name"><%# Eval("Nome") %></div>
+                            <div class="product-price">R$ <%# Convert.ToDecimal(Eval("Preco")).ToString("N2") %></div>
+                            <a href='ConfirmarCompra.aspx?id=<%# Eval("id_jogo") %>' class="btn">Comprar</a>
+                        </div>
+                    </ItemTemplate>
+                </asp:Repeater>
             </div>
         </main>
 

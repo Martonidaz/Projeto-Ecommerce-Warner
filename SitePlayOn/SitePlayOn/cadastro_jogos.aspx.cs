@@ -33,7 +33,7 @@ public partial class cadastro_jogos : System.Web.UI.Page
             int idGenero = Convert.ToInt32(ddlGenero.SelectedValue);
             int idPlataforma = Convert.ToInt32(ddlPlataforma.SelectedValue);
 
-            string sqlJogos = @"INSERT INTO Jogos (nome, descricao, data_lancamento, preco, tamanho, id_desenvolvedor, id_publicadora, id_classificacao) OUTPUT INSERTED.id_jogo VALUES (@nome, @descricao, @data_lancamento, @preco, @tamanho, @id_desenvolvedor, @id_publicadora, @id_classificacao, @id_genero, @id_plataforma)";
+            string sqlJogos = @"INSERT INTO Jogos (nome, descricao, data_lancamento, preco, tamanho, id_desenvolvedor, id_publicadora, id_classificacao) OUTPUT INSERTED.id_jogo VALUES (@nome, @descricao, @data_lancamento, @preco, @tamanho, @id_desenvolvedor, @id_publicadora, @id_classificacao)";
 
             SqlCommand cmdJogos = new SqlCommand(sqlJogos, con);
 
@@ -45,7 +45,14 @@ public partial class cadastro_jogos : System.Web.UI.Page
             cmdJogos.Parameters.AddWithValue("@id_desenvolvedor", idDesenvolvedor);
             cmdJogos.Parameters.AddWithValue("@id_publicadora", idPublicadora);
             cmdJogos.Parameters.AddWithValue("@id_classificacao", idClassificacao);
+  
+
+            string sqlJogos2 = @"INSERT INTO (id_genero) OUTPUT INSERTED.id_jogo VALUES (@id_genero)";
+            SqlCommand cmdJogos2 = new SqlCommand(sqlJogos2, con);
             cmdJogos.Parameters.AddWithValue("@id_genero", idGenero);
+
+            string sqlJogos3 = @"INSERT INTO (id_plataforma) OUTPUT INSERTED.id_jogo VALUES (@id_plataforma)";
+            SqlCommand cmdJogos3 = new SqlCommand(sqlJogos3, con);
             cmdJogos.Parameters.AddWithValue("@id_plataforma", idPlataforma);
 
 

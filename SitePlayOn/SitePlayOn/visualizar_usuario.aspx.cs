@@ -9,7 +9,7 @@ public partial class visualizar_usuario : System.Web.UI.Page
     protected void Page_Load(object sender, EventArgs e)
     {
         // Verifica se usuário é admin antes de carregar (evita NullReference)
-        if (Session["tipousuario"] != null && Session["tipousuario"].ToString() == "admin")
+        if (Session["tipousuario"] != null || Session["tipousuario"].ToString() == "admin")
         {
             if (!IsPostBack)
                 visualizarUsuarios();
