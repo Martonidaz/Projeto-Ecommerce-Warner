@@ -3,7 +3,6 @@
 <div>
   <div>
   <h3>Projeto de e-commerce desenvolvido em ASP.NET, C#, MySQL html e css para a disciplina de Desenvolvimento Web</h3>
-    <
   <a>Esse projeto foi desenvolvido para ser um e-commerce de jogos</a>
   <br></b>
   <br></b>
